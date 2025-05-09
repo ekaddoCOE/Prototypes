@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classroom Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .time-block {
+            position: relative;
+            font-size: 12px;
+        }
+
+        .class-1 {
+            background-color: #FF9999;
+        }
+
+        .class-2 {
+            background-color: #99CCFF;
+        }
+
+        .class-3 {
+            background-color: #FFCC99;
+        }
+
+        .class-4 {
+            background-color: #CCFF99;
+        }
+
+        .class-5 {
+            background-color: #CCCCFF;
+        }
+
+        /* Add more classes as needed */
+    </style>
+</head>
+<body>
+    <h1>Classroom Schedule</h1>
+    <label for="fileInput">Select CSV File:</label>
+    <input type="file" id="fileInput" accept=".csv">
+    <br><br>
+    <label for="termSelect">Term:</label>
+    <select id="termSelect" disabled>
+        <option value="">Select a term</option>
+    </select>
+    <label for="buildingSelect">Building :</label>
+    <select id="buildingSelect" disabled>
+        <option value="">Select a building</option>
+    </select>
+    <label for="roomSelect">Room:</label>
+    <select id="roomSelect" disabled>
+        <option value="">Select a room:</option>
+    </select>
+    <button id="generateScheduleButton" disabled>Generate Schedule</button>
+    <div id="schedule"></div>
+    <script>const fileInput = document.getElementById('fileInput');
+        const termSelect = document.getElementById('termSelect');
+        const buildingSelect = document.getElementById('buildingSelect');
+        const roomSelect = document.getElementById('roomSelect');
+        const generateScheduleButton = document.getElementById('generateScheduleButton');
+        let csvData = [];
+
+        // Handle file selection
+        fileInput.addEventListener('change', function (event) {
+            const file = event.target.files[0];
+            if (!file) {
+                alert("Please select a valid CSV file.");
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const csvText = e.target.result;
+                const rows = csvText.split("\n").map(row => row.split(","));
+                const headers = rows[0].map(header => header.trim());
+                csvData = rows.slice(1).map(row => Object.fromEntries(row.map((val, index) => [headers[index], val.trim()])));
+                populateTermDropdown(csvData);
+            };
+            reader.readAsText(file);
+        });
+
+        function populateTermDropdown(data) {
+            const terms = [...new Set(data.map(entry => entry["TERM"]))].filter(Boolean);
+            termSelect.innerHTML = '<option value="">Select a term</option>';
+            terms.forEach(term => {
+                const option = document.createElement('option');
+                option.value = term;
+                option.textContent = term;
+                termSelect.appendChild(option);
+            });
+
+            termSelect.disabled = false;
+            termSelect.addEventListener('change', () => {
+                const selectedTerm = termSelect.value;
+                if (selectedTerm) {
+                    populateBuildingDropdown(data, selectedTerm);
+                    buildingSelect.disabled = false;
+                } else {
+                    buildingSelect.innerHTML = '<option value="">Select a building</option>';
+                    buildingSelect.disabled = true;
+                    roomSelect.innerHTML = '<option value="">Select a room</option>';
+                    roomSelect.disabled = true;
+                    generateScheduleButton.disabled = true;
+                }
+            });
+        }
+
+        function populateBuildingDropdown(data, term) {
+            const buildings = [...new Set(data.filter(entry => entry["TERM"] === term).map(entry => entry["BLDG"]))].filter(Boolean);
+            buildingSelect.innerHTML = '<option value="">Select a building</option>';
+            buildings.forEach(building => {
+                const option = document.createElement('option');
+                option.value = building;
+                option.textContent = building;
+                buildingSelect.appendChild(option);
+            });
+
+            buildingSelect.addEventListener('change', () => {
+                const selectedBuilding = buildingSelect.value;
+                if (selectedBuilding) {
+                    populateRoomDropdown(data, term, selectedBuilding);
+                    roomSelect.disabled = false;
+                } else {
+                    roomSelect.innerHTML = '<option value="">Select a room</option>';
+                    roomSelect.disabled = true;
+                    generateScheduleButton.disabled = true;
+                }
+            });
+        }
+
+        function populateRoomDropdown(data, term, building) {
+            const rooms = [...new Set(data.filter(entry => entry["TERM"] === term && entry["BLDG"] === building).map(entry => entry["ROOM"]))].filter(Boolean);
+            roomSelect.innerHTML = '<option value="">Select a room</option>';
+            rooms.forEach(room => {
+                const option = document.createElement('option');
+                option.value = room;
+                option.textContent = room;
+                roomSelect.appendChild(option);
+            });
+
+            roomSelect.addEventListener('change', () => {
+                generateScheduleButton.disabled = !roomSelect.value;
+            });
+        }
+
+        generateScheduleButton.addEventListener('click', () => {
+            const term = termSelect.value;
+            const building = buildingSelect.value;
+            const room = roomSelect.value;
+
+            if (!term || !building || !room) {
+                alert("Please select a term, building, and room.");
+                return;
+            }
+
+            generateSchedule(csvData, term, building, room);
+        });
+
+        function generateSchedule(data, term, building, room) {
+            const scheduleContainer = document.getElementById("schedule");
+            scheduleContainer.innerHTML = "";
+
+            const timeSlots = generateTimeSlots("06:00 AM", "09:00 PM", 10);
+            const days = ["MON", "TUE", "WEDS", "THUR", "FRI"];
+            const filteredData = data.filter(entry => entry["TERM"] === term && entry["BLDG"] === building && entry["ROOM"] === room);
+
+            if (filteredData.length === 0) {
+                scheduleContainer.innerHTML = `<p>No schedule found for ${term} - ${building} - ${room}.</p>`;
+                return;
+            }
+
+            let tableHTML = `<h2>${term} - ${building} - ${room}</h2><table><tr><th>Time</th>`;
+            days.forEach(day => tableHTML += `<th>${day}</th>`);
+            tableHTML += "</tr>";
+
+            const schedule = createScheduleMap(filteredData, days);
+
+            // Track rowspan for each block
+            const rowspanTracker = {};
+
+            timeSlots.forEach((time, timeIndex) => {
+                tableHTML += `<tr><td>${time}</td>`;
+                days.forEach(day => {
+                    const classDetails = schedule[day][time];
+
+                    if (classDetails) {
+                        const { instructor, course, startTime, endTime, colorClass } = classDetails;
+
+                        // Check if this block has already been rendered
+                        if (!rowspanTracker[day]) {
+                            rowspanTracker[day] = {};
+                        }
+
+                        if (rowspanTracker[day][time]) {
+                            // Skip rendering this cell as it's part of a merged block
+                            return;
+                        }
+
+                        // Calculate rowspan for this block
+                        let rowspan = 1;
+                        let nextTimeIndex = timeIndex + 1;
+
+                        while (
+                            nextTimeIndex < timeSlots.length &&
+                            schedule[day][timeSlots[nextTimeIndex]] &&
+                            schedule[day][timeSlots[nextTimeIndex]].course === course &&
+                            schedule[day][timeSlots[nextTimeIndex]].instructor === instructor
+                        ) {
+                            rowspan++;
+                            rowspanTracker[day][timeSlots[nextTimeIndex]] = true; // Mark as part of the merged block
+                            nextTimeIndex++;
+                        }
+
+                        // Determine text color for high contrast
+                        const textColor = getContrastYIQ(colorClass);
+
+                        // Render the cell with rowspan
+                        tableHTML += `<td class="time-block ${colorClass}" rowspan="${rowspan}" style="color: ${textColor};">
+                                    <strong>${course}</strong><br>
+                                    ${instructor}<br>
+                                    ${startTime} - ${endTime}
+                                  </td>`;
+                    } else {
+                        // Render an empty cell
+                        tableHTML += `<td></td>`;
+                    }
+                });
+                tableHTML += "</tr>";
+            });
+
+            tableHTML += "</table>";
+            scheduleContainer.innerHTML = tableHTML;
+        }
+
+        function createScheduleMap(data, days) {
+            const schedule = {};
+            days.forEach(day => schedule[day] = {});
+
+            const colorClasses = ["class-1", "class-2", "class-3", "class-4", "class-5"];
+            let colorIndex = 0;
+
+            data.forEach(entry => {
+                const startTime = parseTime(entry["START"]);
+                const endTime = parseTime(entry["END"]);
+                const instructor = entry["INSTRUCTOR"];
+                const course = entry["COURSE TITLE"];
+                const colorClass = colorClasses[colorIndex++ % colorClasses.length];
+
+                days.forEach(day => {
+                    if (entry[day] !== ".") {
+                        let current = new Date(startTime);
+                        while (current < endTime) {
+                            const timeKey = formatTime(current);
+                            schedule[day][timeKey] = {
+                                instructor,
+                                course,
+                                startTime: formatTime(startTime),
+                                endTime: formatTime(endTime),
+                                colorClass
+                            };
+                            current.setMinutes(current.getMinutes() + 10);
+                        }
+                    }
+                });
+            });
+
+            return schedule;
+        }
+
+        function generateTimeSlots(start, end, interval) {
+            const timeSlots = [];
+            let currentTime = parseTime(start);
+            const endTime = parseTime(end);
+
+            while (currentTime <= endTime) {
+                timeSlots.push(formatTime(currentTime));
+                currentTime.setMinutes(currentTime.getMinutes() + interval);
+            }
+            return timeSlots;
+        }
+
+        function parseTime(timeStr) {
+            const [time, period] = timeStr.split(" ");
+            let [hours, minutes] = time.split(":").map(Number);
+            if (period === "PM" && hours !== 12) hours += 12;
+            if (period === "AM" && hours === 12) hours = 0;
+            return new Date(1970, 0, 1, hours, minutes, 0);
+        }
+
+        function formatTime(date) {
+            let hours = date.getHours();
+            let minutes = date.getMinutes();
+            const period = hours >= 12 ? "PM" : "AM";
+            hours = hours % 12 || 12;
+            return `${hours}:${minutes.toString().padStart(2, "0")} ${period}`;
+        }
+
+        function getContrastYIQ(colorClass) {
+            // Map color classes to their hex values
+            const colorMap = {
+                "class-1": "#FF9999",
+                "class-2": "#99CCFF",
+                "class-3": "#FFCC99",
+                "class-4": "#CCFF99",
+                "class-5": "#CCCCFF"
+            };
+
+            const hex = colorMap[colorClass];
+            const r = parseInt(hex.substr(1, 2), 16);
+            const g = parseInt(hex.substr(3, 2), 16);
+            const b = parseInt(hex.substr(5, 2), 16);
+            const yiq = (r * 299 + g * 587 + b * 114) / 1000;
+            return yiq >= 128 ? "black" : "white";
+        }</script>
+</body>
+</html>
