@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grant Budget Planning Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Grant Budget Planning Tool</h1>
+            <div class="header-actions">
+                <button id="save-button" class="btn btn--secondary btn--sm">Save Progress</button>
+                <button id="export-button" class="btn btn--primary btn--sm">Export Budget</button>
+            </div>
+        </header>
+
+        <!-- Project Information Section -->
+        <section class="card project-info">
+            <div class="card__header">
+                <h2>Project Information</h2>
+            </div>
+            <div class="card__body">
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label class="form-label" for="project-title">Project Title</label>
+                        <input type="text" id="project-title" class="form-control" placeholder="Enter project title">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="sponsor">Sponsor</label>
+                        <input type="text" id="sponsor" class="form-control" placeholder="Enter sponsor name">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="pi-name">Principal Investigator</label>
+                        <input type="text" id="pi-name" class="form-control" placeholder="Enter PI name">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="start-date">Start Date</label>
+                        <input type="date" id="start-date" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="end-date">End Date</label>
+                        <input type="date" id="end-date" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="project-years">Project Years</label>
+                        <select id="project-years" class="form-control">
+                            <option value="1">1 Year</option>
+                            <option value="2">2 Years</option>
+                            <option value="3">3 Years</option>
+                            <option value="4">4 Years</option>
+                            <option value="5">5 Years</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Budget Summary Cards -->
+        <section class="budget-summary">
+            <div class="summary-cards">
+                <div class="summary-card">
+                    <h3>Total Direct Costs</h3>
+                    <div class="summary-amount" id="total-direct">$0</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Indirect Costs</h3>
+                    <div class="summary-amount" id="total-indirect">$0</div>
+                </div>
+                <div class="summary-card">
+                    <h3>Total Project Cost</h3>
+                    <div class="summary-amount" id="total-project">$0</div>
+                </div>
+                <div class="summary-card">
+                    <h3>MTDC Base</h3>
+                    <div class="summary-amount" id="mtdc-base">$0</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Year Tabs -->
+        <section class="year-tabs">
+            <div class="tabs">
+                <button class="tab active" data-year="1">Year 1</button>
+                <button class="tab" data-year="2">Year 2</button>
+                <button class="tab" data-year="3">Year 3</button>
+                <button class="tab" data-year="4">Year 4</button>
+                <button class="tab" data-year="5">Year 5</button>
+            </div>
+        </section>
+
+        <!-- Main Budget Content -->
+        <div class="budget-content">
+            <!-- Personnel Section -->
+            <section class="card personnel-section">
+                <div class="card__header">
+                    <h2>Personnel</h2>
+                    <div class="section-tools">
+                        <button class="btn btn--secondary btn--sm" id="add-personnel">Add Personnel</button>
+                        <button class="btn btn--outline btn--sm" id="effort-calculator">Effort Calculator</button>
+                    </div>
+                </div>
+                <div class="card__body">
+                    <div id="personnel-list" class="personnel-list">
+                        <!-- Personnel entries will be added dynamically -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Fringe Benefits Section -->
+            <section class="card fringe-section">
+                <div class="card__header">
+                    <h2>Fringe Benefits</h2>
+                    <div class="fringe-total" id="fringe-total">$0</div>
+                </div>
+                <div class="card__body">
+                    <div id="fringe-breakdown" class="fringe-breakdown">
+                        <!-- Fringe calculations will be displayed here -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tuition Section -->
+            <section class="card tuition-section">
+                <div class="card__header">
+                    <h2>Tuition</h2>
+                </div>
+                <div class="card__body">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label" for="in-state-tuition">In-State Tuition</label>
+                            <input type="number" id="in-state-tuition" class="form-control budget-input" step="0.01" placeholder="0.00">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="out-state-tuition">Out-of-State Tuition</label>
+                            <input type="number" id="out-state-tuition" class="form-control budget-input" step="0.01" placeholder="0.00">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="health-fees">Health Fees</label>
+                            <input type="number" id="health-fees" class="form-control budget-input" step="0.01" placeholder="0.00">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Equipment Section -->
+            <section class="card equipment-section">
+                <div class="card__header">
+                    <h2>Equipment</h2>
+                    <button class="btn btn--secondary btn--sm" id="add-equipment">Add Equipment</button>
+                </div>
+                <div class="card__body">
+                    <div id="equipment-list" class="equipment-list">
+                        <!-- Equipment entries will be added dynamically -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Travel Section -->
+            <section class="card travel-section">
+                <div class="card__header">
+                    <h2>Travel</h2>
+                </div>
+                <div class="card__body">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label" for="domestic-travel">Domestic Travel</label>
+                            <input type="number" id="domestic-travel" class="form-control budget-input" step="0.01" placeholder="0.00">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="foreign-travel">Foreign Travel</label>
+                            <input type="number" id="foreign-travel" class="form-control budget-input" step="0.01" placeholder="0.00">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Participant Support Section -->
+            <section class="card participant-section">
+                <div class="card__header">
+                    <h2>Participant Support</h2>
+                </div>
+                <div class="card__body">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label" for="participant-travel">Participant Travel</label>
+                            <input type="number" id="participant-travel" class="form-control budget-input" step="0.01" placeholder="0.00">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="participant-subsistence">Participant Subsistence</label>
+                            <input type="number" id="participant-subsistence" class="form-control budget-input" step="0.01" placeholder="0.00">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="participant-other">Other Participant Costs</label>
+                            <input type="number" id="participant-other" class="form-control budget-input" step="0.01" placeholder="0.00">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Other Direct Costs Section -->
+            <section class="card other-costs-section">
+                <div class="card__header">
+                    <h2>Other Direct Costs</h2>
+                    <button class="btn btn--secondary btn--sm" id="add-other-cost">Add Cost</button>
+                </div>
+                <div class="card__body">
+                    <div id="other-costs-list" class="other-costs-list">
+                        <!-- Other costs will be added dynamically -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Subcontractors Section -->
+            <section class="card subcontractor-section">
+                <div class="card__header">
+                    <h2>Subcontractors</h2>
+                    <button class="btn btn--secondary btn--sm" id="add-subcontractor">Add Subcontractor</button>
+                </div>
+                <div class="card__body">
+                    <div id="subcontractor-list" class="subcontractor-list">
+                        <!-- Subcontractor entries will be added dynamically -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Validation Alerts -->
+        <div id="validation-alerts" class="validation-alerts"></div>
+    </div>
+
+    <!-- Effort Calculator Modal -->
+    <div id="effort-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Effort Conversion Calculator</h2>
+                <button class="modal-close" id="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="calculator-section">
+                    <h3>Convert Effort Percentage to Person Months</h3>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label" for="effort-percent">Effort Percentage (%)</label>
+                            <input type="number" id="effort-percent" class="form-control" min="0" max="100" step="0.1">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="appointment-type">Appointment Type</label>
+                            <select id="appointment-type" class="form-control">
+                                <option value="9">Academic Year (9 months)</option>
+                                <option value="12">Calendar Year (12 months)</option>
+                                <option value="3">Summer (3 months)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Person Months</label>
+                            <div id="person-months-result" class="result-display">0.00</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="calculator-section">
+                    <h3>Convert Person Months to Effort Percentage</h3>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label class="form-label" for="person-months-input">Person Months</label>
+                            <input type="number" id="person-months-input" class="form-control" min="0" step="0.01">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="appointment-type-reverse">Appointment Type</label>
+                            <select id="appointment-type-reverse" class="form-control">
+                                <option value="9">Academic Year (9 months)</option>
+                                <option value="12">Calendar Year (12 months)</option>
+                                <option value="3">Summer (3 months)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Effort Percentage</label>
+                            <div id="effort-percent-result" class="result-display">0.00%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

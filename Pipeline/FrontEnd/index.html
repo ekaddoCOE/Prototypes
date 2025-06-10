@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCAT COE Grant Budget Planning Tool</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__branding">
+                    <div class="gear-icon">⚙️</div>
+                    <div class="header__text">
+                        <h1 class="header__title">NCAT COE Grant Budget Planning Tool</h1>
+                        <p class="header__tagline">Driving Innovation</p>
+                    </div>
+                </div>
+                <div class="header__university">
+                    <span class="university-name">North Carolina A&T State University</span>
+                    <span class="college-name">College of Engineering</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="budget-planner">
+                <!-- Progress Indicator -->
+                <div class="progress-bar">
+                    <div class="progress-steps">
+                        <div class="step active" data-step="project">
+                            <div class="step__icon">📋</div>
+                            <span>Project Info</span>
+                        </div>
+                        <div class="step" data-step="personnel">
+                            <div class="step__icon">👥</div>
+                            <span>Personnel</span>
+                        </div>
+                        <div class="step" data-step="budget">
+                            <div class="step__icon">💰</div>
+                            <span>Budget</span>
+                        </div>
+                        <div class="step" data-step="summary">
+                            <div class="step__icon">📊</div>
+                            <span>Summary</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab Navigation -->
+                <div class="tab-navigation">
+                    <button class="tab-btn active" data-tab="project">
+                        <span class="gear-icon">⚙️</span>
+                        Project Information
+                    </button>
+                    <button class="tab-btn" data-tab="personnel">
+                        <span class="gear-icon">⚙️</span>
+                        Personnel & Fringe
+                    </button>
+                    <button class="tab-btn" data-tab="direct-costs">
+                        <span class="gear-icon">⚙️</span>
+                        Direct Costs
+                    </button>
+                    <button class="tab-btn" data-tab="summary">
+                        <span class="gear-icon">⚙️</span>
+                        Summary & Export
+                    </button>
+                </div>
+
+                <!-- Tab Content -->
+                <div class="tab-content">
+                    <!-- Project Information Tab -->
+                    <div class="tab-panel active" id="project-tab">
+                        <div class="section-card">
+                            <h2 class="section-title">
+                                <span class="gear-icon">⚙️</span>
+                                Project Information
+                            </h2>
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label class="form-label" for="project-title">Project Title</label>
+                                    <input type="text" id="project-title" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="principal-investigator">Principal Investigator</label>
+                                    <input type="text" id="principal-investigator" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="sponsor">Sponsor</label>
+                                    <input type="text" id="sponsor" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="project-duration">Project Duration (Years)</label>
+                                    <select id="project-duration" class="form-control">
+                                        <option value="1">1 Year</option>
+                                        <option value="2">2 Years</option>
+                                        <option value="3">3 Years</option>
+                                        <option value="4">4 Years</option>
+                                        <option value="5">5 Years</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="start-date">Project Start Date</label>
+                                    <input type="date" id="start-date" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" for="end-date">Project End Date</label>
+                                    <input type="date" id="end-date" class="form-control" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Personnel & Fringe Tab -->
+                    <div class="tab-panel" id="personnel-tab">
+                        <div class="section-card">
+                            <h2 class="section-title">
+                                <span class="gear-icon">⚙️</span>
+                                Personnel
+                            </h2>
+                            
+                            <!-- PI Academic Year -->
+                            <div class="personnel-section">
+                                <h3 class="subsection-title">Principal Investigator (Academic Year)</h3>
+                                <div class="form-grid">
+                                    <div class="form-group">
+                                        <label class="form-label" for="pi-academic-salary">Annual Salary ($)</label>
+                                        <input type="number" id="pi-academic-salary" class="form-control calculation-input" min="0" step="100">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="pi-academic-effort">Effort (%)</label>
+                                        <input type="number" id="pi-academic-effort" class="form-control calculation-input" min="0" max="100" step="0.1">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Person Months</label>
+                                        <input type="text" id="pi-academic-months" class="form-control" readonly>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Calculated Cost ($)</label>
+                                        <input type="text" id="pi-academic-cost" class="form-control calculation-result" readonly>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- PI Summer -->
+                            <div class="personnel-section">
+                                <h3 class="subsection-title">Principal Investigator (Summer)</h3>
+                                <div class="form-grid">
+                                    <div class="form-group">
+                                        <label class="form-label" for="pi-summer-salary">Monthly Salary ($)</label>
+                                        <input type="number" id="pi-summer-salary" class="form-control calculation-input" min="0" step="100">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="pi-summer-months">Months</label>
+                                        <input type="number" id="pi-summer-months" class="form-control calculation-input" min="0" max="3" step="0.1">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Calculated Cost ($)</label>
+                                        <input type="text" id="pi-summer-cost" class="form-control calculation-result" readonly>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Graduate Students -->
+                            <div class="personnel-section">
+                                <h3 class="subsection-title">Graduate Students</h3>
+                                <div id="graduate-students-container">
+                                    <div class="graduate-student-entry">
+                                        <div class="form-grid">
+                                            <div class="form-group">
+                                                <label class="form-label">Student Type</label>
+                                                <select class="form-control grad-type">
+                                                    <option value="academic">Academic Year</option>
+                                                    <option value="summer">Summer</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-label">Monthly Stipend ($)</label>
+                                                <input type="number" class="form-control grad-stipend calculation-input" min="0" step="100">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-label">Months</label>
+                                                <input type="number" class="form-control grad-months calculation-input" min="0" max="12" step="0.1">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-label">Cost ($)</label>
+                                                <input type="text" class="form-control grad-cost calculation-result" readonly>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn--secondary" id="add-graduate-student">+ Add Graduate Student</button>
+                            </div>
+
+                            <!-- Fringe Benefits Summary -->
+                            <div class="section-card fringe-summary">
+                                <h3 class="subsection-title">
+                                    <span class="gear-icon">⚙️</span>
+                                    Fringe Benefits Summary
+                                </h3>
+                                <div class="calculation-grid">
+                                    <div class="calculation-item">
+                                        <label>Total Personnel Cost:</label>
+                                        <span id="total-personnel-cost" class="calculation-value">$0</span>
+                                    </div>
+                                    <div class="calculation-item">
+                                        <label>Total Fringe Benefits:</label>
+                                        <span id="total-fringe-cost" class="calculation-value">$0</span>
+                                    </div>
+                                    <div class="calculation-item total">
+                                        <label>Personnel + Fringe Total:</label>
+                                        <span id="personnel-fringe-total" class="calculation-value">$0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Direct Costs Tab -->
+                    <div class="tab-panel" id="direct-costs-tab">
+                        <div class="section-card">
+                            <h2 class="section-title">
+                                <span class="gear-icon">⚙️</span>
+                                Direct Costs
+                            </h2>
+
+                            <!-- Equipment -->
+                            <div class="cost-section">
+                                <h3 class="subsection-title">Equipment</h3>
+                                <div class="form-group">
+                                    <label class="form-label" for="equipment-cost">Total Equipment Cost ($)</label>
+                                    <input type="number" id="equipment-cost" class="form-control calculation-input" min="0" step="100">
+                                    <div class="validation-message" id="equipment-validation"></div>
+                                </div>
+                            </div>
+
+                            <!-- Travel -->
+                            <div class="cost-section">
+                                <h3 class="subsection-title">Travel</h3>
+                                <div class="form-grid">
+                                    <div class="form-group">
+                                        <label class="form-label" for="domestic-travel">Domestic Travel ($)</label>
+                                        <input type="number" id="domestic-travel" class="form-control calculation-input" min="0" step="100">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="foreign-travel">Foreign Travel ($)</label>
+                                        <input type="number" id="foreign-travel" class="form-control calculation-input" min="0" step="100">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Other Direct Costs -->
+                            <div class="cost-section">
+                                <h3 class="subsection-title">Other Direct Costs</h3>
+                                <div class="form-grid">
+                                    <div class="form-group">
+                                        <label class="form-label" for="materials-supplies">Materials & Supplies ($)</label>
+                                        <input type="number" id="materials-supplies" class="form-control calculation-input" min="0" step="100">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="publication-costs">Publication Costs ($)</label>
+                                        <input type="number" id="publication-costs" class="form-control calculation-input" min="0" step="100">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="consultant-costs">Consultant Costs ($)</label>
+                                        <input type="number" id="consultant-costs" class="form-control calculation-input" min="0" step="100">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label" for="other-costs">Other Costs ($)</label>
+                                        <input type="number" id="other-costs" class="form-control calculation-input" min="0" step="100">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Subcontractors -->
+                            <div class="cost-section">
+                                <h3 class="subsection-title">Subcontractors</h3>
+                                <div id="subcontractors-container">
+                                    <div class="subcontractor-entry">
+                                        <div class="form-grid">
+                                            <div class="form-group">
+                                                <label class="form-label">Subcontractor Name</label>
+                                                <input type="text" class="form-control sub-name">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-label">Direct Cost ($)</label>
+                                                <input type="number" class="form-control sub-direct calculation-input" min="0" step="100">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-label">F&A Rate (%)</label>
+                                                <input type="number" class="form-control sub-fa-rate calculation-input" min="0" max="100" step="0.1">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="form-label">F&A Cost ($)</label>
+                                                <input type="text" class="form-control sub-fa-cost calculation-result" readonly>
+                                            </div>
+                                        </div>
+                                        <div class="validation-message sub-validation"></div>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn--secondary" id="add-subcontractor">+ Add Subcontractor</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Summary & Export Tab -->
+                    <div class="tab-panel" id="summary-tab">
+                        <div class="section-card">
+                            <h2 class="section-title">
+                                <span class="gear-icon">⚙️</span>
+                                Budget Summary
+                            </h2>
+                            
+                            <div class="budget-summary">
+                                <div class="summary-grid">
+                                    <div class="summary-item">
+                                        <label>Personnel + Fringe:</label>
+                                        <span id="summary-personnel" class="amount">$0</span>
+                                    </div>
+                                    <div class="summary-item">
+                                        <label>Equipment:</label>
+                                        <span id="summary-equipment" class="amount">$0</span>
+                                    </div>
+                                    <div class="summary-item">
+                                        <label>Travel:</label>
+                                        <span id="summary-travel" class="amount">$0</span>
+                                    </div>
+                                    <div class="summary-item">
+                                        <label>Other Direct Costs:</label>
+                                        <span id="summary-other" class="amount">$0</span>
+                                    </div>
+                                    <div class="summary-item">
+                                        <label>Subcontractors:</label>
+                                        <span id="summary-subcontractors" class="amount">$0</span>
+                                    </div>
+                                    <div class="summary-item total-direct">
+                                        <label>Total Direct Costs:</label>
+                                        <span id="total-direct-costs" class="amount">$0</span>
+                                    </div>
+                                    <div class="summary-item">
+                                        <label>MTDC Base:</label>
+                                        <span id="mtdc-base" class="amount">$0</span>
+                                    </div>
+                                    <div class="summary-item">
+                                        <label>Indirect Costs (45%):</label>
+                                        <span id="indirect-costs" class="amount">$0</span>
+                                    </div>
+                                    <div class="summary-item grand-total">
+                                        <label>GRAND TOTAL:</label>
+                                        <span id="grand-total" class="amount">$0</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Compliance Checks -->
+                            <div class="compliance-section">
+                                <h3 class="subsection-title">
+                                    <span class="gear-icon">⚙️</span>
+                                    Compliance Checks
+                                </h3>
+                                <div id="compliance-alerts">
+                                    <!-- Dynamic compliance alerts will be inserted here -->
+                                </div>
+                            </div>
+
+                            <!-- Export Options -->
+                            <div class="export-section">
+                                <h3 class="subsection-title">Export Options</h3>
+                                <div class="export-buttons">
+                                    <button class="btn btn--primary" id="export-pdf">
+                                        <span class="gear-icon">⚙️</span>
+                                        Export to PDF
+                                    </button>
+                                    <button class="btn btn--secondary" id="print-budget">
+                                        <span class="gear-icon">⚙️</span>
+                                        Print Budget
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 North Carolina A&T State University - College of Engineering</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
