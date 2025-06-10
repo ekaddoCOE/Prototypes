@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NCAT COE Grant Management - Backend Reporting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__branding">
+                    <div class="gear-icon">⚙️</div>
+                    <div class="header__text">
+                        <h1 class="header__title">NCAT COE Grant Management System</h1>
+                        <p class="header__tagline">Driving Innovation</p>
+                    </div>
+                </div>
+                <div class="header__university">
+                    <span class="university-name">North Carolina A&T State University</span>
+                    <span class="college-name">College of Engineering</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <div class="nav-tabs">
+                <button class="nav-tab active" data-view="dashboard">
+                    <span class="gear-icon">📊</span>
+                    Dashboard
+                </button>
+                <button class="nav-tab" data-view="grants">
+                    <span class="gear-icon">📋</span>
+                    Grant Tracking
+                </button>
+                <button class="nav-tab" data-view="reports">
+                    <span class="gear-icon">📈</span>
+                    Reports & Analytics
+                </button>
+                <button class="nav-tab" data-view="budget-planner" onclick="window.open('#', '_blank')">
+                    <span class="gear-icon">💰</span>
+                    Budget Planner
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <!-- Dashboard View -->
+            <div class="view active" id="dashboard-view">
+                <div class="dashboard-header">
+                    <h2 class="dashboard-title">Grant Management Dashboard</h2>
+                    <div class="dashboard-actions">
+                        <button class="btn btn--primary" id="refresh-data">
+                            <span class="gear-icon">🔄</span>
+                            Refresh Data
+                        </button>
+                        <button class="btn btn--secondary" id="export-dashboard">
+                            <span class="gear-icon">📊</span>
+                            Export Dashboard
+                        </button>
+                    </div>
+                </div>
+
+                <!-- KPI Cards -->
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-icon">💰</div>
+                        <div class="kpi-content">
+                            <div class="kpi-value" id="total-grant-value">$0</div>
+                            <div class="kpi-label">Total Grant Value</div>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">📊</div>
+                        <div class="kpi-content">
+                            <div class="kpi-value" id="active-grants">0</div>
+                            <div class="kpi-label">Active Grants</div>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">📈</div>
+                        <div class="kpi-content">
+                            <div class="kpi-value" id="total-spent">$0</div>
+                            <div class="kpi-label">Total Spent</div>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">⚠️</div>
+                        <div class="kpi-content">
+                            <div class="kpi-value" id="upcoming-deadlines">0</div>
+                            <div class="kpi-label">Upcoming Deadlines</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Stats -->
+                <div class="dashboard-sections">
+                    <div class="dashboard-section">
+                        <h3 class="section-title">Financial Overview</h3>
+                        <div class="financial-overview">
+                            <div class="financial-item">
+                                <label>Total Remaining Budget:</label>
+                                <span id="total-remaining" class="amount">$0</span>
+                            </div>
+                            <div class="financial-item">
+                                <label>Average Completion:</label>
+                                <span id="average-completion" class="percentage">0%</span>
+                            </div>
+                            <div class="financial-item">
+                                <label>Grants Closing Soon:</label>
+                                <span id="closing-soon" class="count">0</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-section">
+                        <h3 class="section-title">Compliance Status</h3>
+                        <div class="compliance-overview">
+                            <div class="compliance-item compliant">
+                                <span class="status-dot"></span>
+                                <label>Compliant Grants:</label>
+                                <span id="compliant-count">0</span>
+                            </div>
+                            <div class="compliance-item attention">
+                                <span class="status-dot"></span>
+                                <label>Needs Attention:</label>
+                                <span id="attention-count">0</span>
+                            </div>
+                            <div class="compliance-item issues">
+                                <span class="status-dot"></span>
+                                <label>Compliance Issues:</label>
+                                <span id="issues-count">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Activity -->
+                <div class="dashboard-section">
+                    <h3 class="section-title">Recent Activity</h3>
+                    <div class="activity-list" id="recent-activity">
+                        <!-- Activity items will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grant Tracking View -->
+            <div class="view" id="grants-view">
+                <div class="grants-header">
+                    <h2 class="grants-title">Post-Award Grant Tracking</h2>
+                    <div class="grants-filters">
+                        <select class="form-control filter-select" id="status-filter">
+                            <option value="">All Statuses</option>
+                            <option value="Active">Active</option>
+                            <option value="Pending Start">Pending Start</option>
+                            <option value="Completed">Completed</option>
+                        </select>
+                        <select class="form-control filter-select" id="agency-filter">
+                            <option value="">All Agencies</option>
+                        </select>
+                        <input type="text" class="form-control search-input" id="search-grants" placeholder="Search grants...">
+                    </div>
+                </div>
+
+                <div class="grants-grid" id="grants-container">
+                    <!-- Grant cards will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Reports View -->
+            <div class="view" id="reports-view">
+                <div class="reports-header">
+                    <h2 class="reports-title">Reports & Analytics</h2>
+                    <div class="reports-actions">
+                        <button class="btn btn--primary" id="generate-financial-report">
+                            <span class="gear-icon">💰</span>
+                            Financial Report
+                        </button>
+                        <button class="btn btn--secondary" id="generate-compliance-report">
+                            <span class="gear-icon">✅</span>
+                            Compliance Report
+                        </button>
+                        <button class="btn btn--outline" id="export-all-data">
+                            <span class="gear-icon">📊</span>
+                            Export All Data
+                        </button>
+                    </div>
+                </div>
+
+                <div class="reports-content">
+                    <div class="report-section">
+                        <h3 class="section-title">Grant Performance Analytics</h3>
+                        <div class="analytics-grid">
+                            <div class="analytics-card">
+                                <h4>Funding by Agency</h4>
+                                <div class="chart-placeholder" id="agency-chart">
+                                    <!-- Chart will be rendered here -->
+                                </div>
+                            </div>
+                            <div class="analytics-card">
+                                <h4>Budget vs Actual Spending</h4>
+                                <div class="chart-placeholder" id="spending-chart">
+                                    <!-- Chart will be rendered here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="report-section">
+                        <h3 class="section-title">Detailed Reports</h3>
+                        <div class="report-list" id="generated-reports">
+                            <!-- Generated reports will appear here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Grant Detail Modal -->
+    <div class="modal" id="grant-detail-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Grant Details</h3>
+                <button class="modal-close" id="close-modal">&times;</button>
+            </div>
+            <div class="modal-body" id="grant-detail-content">
+                <!-- Grant details will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 North Carolina A&T State University - College of Engineering</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
