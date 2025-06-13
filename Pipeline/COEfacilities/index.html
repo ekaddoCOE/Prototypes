@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NC A&T College of Engineering - Facilities Browser</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with enhanced contrast -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-brand">
+                    <h1 class="brand-title">NC A&T College of Engineering</h1>
+                    <p class="brand-subtitle">Facilities Browser</p>
+                </div>
+                <div class="header-search">
+                    <input type="text" id="globalSearch" class="search-input" placeholder="Search buildings, rooms, departments...">
+                    <button type="button" class="search-btn" id="searchBtn">
+                        <span class="search-icon">🔍</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb-nav" id="breadcrumbNav">
+        <div class="container">
+            <ol class="breadcrumb-list" id="breadcrumbList">
+                <li class="breadcrumb-item active">
+                    <a href="#" data-view="home">Home</a>
+                </li>
+            </ol>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="container">
+            <!-- Home View - Building Cards -->
+            <section id="homeView" class="view-section active">
+                <div class="section-header">
+                    <h2 class="section-title">Engineering Buildings</h2>
+                    <p class="section-description">Select a building to explore its facilities and resources</p>
+                </div>
+                <div class="buildings-grid" id="buildingsGrid">
+                    <!-- Building cards will be dynamically generated -->
+                </div>
+            </section>
+
+            <!-- Building Detail View -->
+            <section id="buildingView" class="view-section">
+                <div class="building-header" id="buildingHeader">
+                    <!-- Building info will be populated here -->
+                </div>
+                <div class="floors-section">
+                    <h3 class="floors-title">Select Floor</h3>
+                    <div class="floors-grid" id="floorsGrid">
+                        <!-- Floor buttons will be generated here -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Floor View -->
+            <section id="floorView" class="view-section">
+                <div class="floor-header" id="floorHeader">
+                    <!-- Floor info will be populated here -->
+                </div>
+                <div class="filters-section">
+                    <h3 class="filters-title">Filter Rooms</h3>
+                    <div class="filters-row">
+                        <select id="typeFilter" class="form-control filter-select">
+                            <option value="">All Room Types</option>
+                            <option value="Laboratory">Laboratory</option>
+                            <option value="Classroom">Classroom</option>
+                            <option value="Tutorial Room">Tutorial Room</option>
+                            <option value="Office">Office</option>
+                        </select>
+                        <select id="departmentFilter" class="form-control filter-select">
+                            <option value="">All Departments</option>
+                        </select>
+                        <input type="number" id="capacityFilter" class="form-control filter-input" placeholder="Min Capacity">
+                    </div>
+                </div>
+                <div class="rooms-grid" id="roomsGrid">
+                    <!-- Room cards will be generated here -->
+                </div>
+            </section>
+
+            <!-- Room Detail View -->
+            <section id="roomView" class="view-section">
+                <div id="roomDetail">
+                    <!-- Room details will be populated here -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2025 North Carolina A&T State University - College of Engineering</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
