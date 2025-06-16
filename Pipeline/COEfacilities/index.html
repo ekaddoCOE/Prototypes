@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header with enhanced contrast -->
+    <!-- Header with enhanced contrast for accessibility -->
     <header class="main-header">
         <div class="container">
             <div class="header-content">
@@ -71,32 +71,52 @@
                 <div class="filters-section">
                     <h3 class="filters-title">Filter Rooms</h3>
                     <div class="filters-row">
-                        <select id="typeFilter" class="form-control filter-select">
+                        <select id="roomUseFilter" class="form-control filter-select">
                             <option value="">All Room Types</option>
-                            <option value="Laboratory">Laboratory</option>
-                            <option value="Classroom">Classroom</option>
-                            <option value="Tutorial Room">Tutorial Room</option>
-                            <option value="Office">Office</option>
+                            <!-- Room use codes will be dynamically populated -->
                         </select>
                         <select id="departmentFilter" class="form-control filter-select">
                             <option value="">All Departments</option>
+                            <!-- Departments will be dynamically populated -->
                         </select>
-                        <input type="number" id="capacityFilter" class="form-control filter-input" placeholder="Min Capacity">
+                        <input type="number" id="stationsFilter" class="form-control filter-input" placeholder="Min Stations">
                     </div>
                 </div>
-                <div class="rooms-grid" id="roomsGrid">
-                    <!-- Room cards will be generated here -->
+                <div class="room-list-container">
+                    <div class="room-sidebar" id="roomSidebar">
+                        <h4 class="sidebar-title">Rooms on Floor <span id="currentFloorDisplay"></span></h4>
+                        <ul class="room-list" id="roomList">
+                            <!-- Room list items will be generated here -->
+                        </ul>
+                    </div>
+                    <div class="room-content" id="roomContent">
+                        <div class="room-placeholder" id="roomPlaceholder">
+                            <p>Select a room from the list to view details</p>
+                        </div>
+                        <div class="room-detail-container" id="roomDetail" style="display: none;">
+                            <!-- Room details will be populated here -->
+                        </div>
+                    </div>
                 </div>
             </section>
 
-            <!-- Room Detail View -->
+            <!-- Room Detail View (Standalone) -->
             <section id="roomView" class="view-section">
-                <div id="roomDetail">
+                <div id="roomDetailFull">
                     <!-- Room details will be populated here -->
                 </div>
             </section>
         </div>
     </main>
+
+    <!-- Building Tabs -->
+    <div class="building-tabs" id="buildingTabs">
+        <div class="container">
+            <div class="tabs-container" id="tabsContainer">
+                <!-- Building tabs will be generated here -->
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="main-footer">
