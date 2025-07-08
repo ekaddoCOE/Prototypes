@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N.C. A&T Computer Name Generator</title>
+
+    <!-- PWA Manifest and Theme -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#004684">
+
+    <!-- Styles and Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-accent"></div>
+            <h1>N.C. A&T COMPUTER NAME GENERATOR</h1>
+            <div class="header-subtitle">Generate standardized computer names following university protocols</div>
+        </header>
+
+        <main class="main-content">
+            <form id="nameGeneratorForm" class="form">
+                <div class="form-group">
+                    <label for="building" class="form-label">Building:</label>
+                    <select id="building" name="building" class="form-control" required>
+                        <option value="">Select a building...</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="room" class="form-label">Room Number:</label>
+                    <input type="text" id="room" name="room" class="form-control" placeholder="Enter room number (1-4 digits)" maxlength="4" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="computerType" class="form-label">Computer Type/Purpose:</label>
+                    <select id="computerType" name="computerType" class="form-control" required>
+                        <option value="">Select computer type...</option>
+                        <option value="A">Administration (A)</option>
+                        <option value="I">Instructional Academic Labs (I)</option>
+                        <option value="R">Research Academic Labs (R)</option>
+                        <option value="P">Portable Devices (P)</option>
+                        <option value="T">Teaching/Podium Devices (T)</option>
+                        <option value="C">Conference Devices (C)</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="serial" class="form-label">Computer Serial Number:</label>
+                    <input type="text" id="serial" name="serial" class="form-control" placeholder="Enter serial number (minimum 5 characters)" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Generate Name</button>
+            </form>
+
+            <div id="result" class="result hidden">
+                <div class="generated-name-container">
+                    <div class="generated-name" id="generatedName"></div>
+                    <button id="copyButton" class="copy-button" aria-label="Copy computer name to clipboard">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div id="copyFeedback" class="copy-feedback hidden">Copied to clipboard!</div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Aggies Do.</p>
+        </footer>
+    </div>
+
+    <!-- Application Scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+    <script>
+        // Register the Service Worker for PWA offline functionality
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(registration => {
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    })
+                    .catch(error => {
+                        console.log('ServiceWorker registration failed: ', error);
+                    });
+            });
+        }
+    </script>
+</body>
+</html>
