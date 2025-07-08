@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McNair 225 Room Layout</title>
+    <!-- Google Fonts: Montserrat (from Brand Guide) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Font Awesome for COE Icon (Gear) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <style>
+        /* --- N.C. A&T Brand Colors --- */
+        :root {
+            --aggie-blue: #004684;
+            --aggie-gold: #FDB927;
+            --light-gray: #f4f7fa;
+            --dark-text: #2c3e50;
+            --light-text: #ffffff;
+            --border-color: #dfe4ea;
+        }
+
+        .back-link-container {
+            margin-bottom: 20px;
+        }
+
+        /* --- General Styles --- */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--light-gray);
+            color: var(--dark-text);
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1, h2 {
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        h1 {
+            font-size: 2.8em;
+            font-weight: 900; /* Montserrat Black */
+            color: var(--aggie-blue);
+            text-transform: uppercase;
+            margin-bottom: 5px;
+        }
+        
+        h2 {
+            font-size: 1.2em;
+            font-weight: 400;
+            margin-top: 5px;
+            color: #7f8c8d;
+        }
+
+        .room-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 25px;
+            background-color: var(--light-text);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.07);
+        }
+
+        /* --- Cabinet Layout Styles --- */
+        .cabinet-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            padding: 25px 15px;
+            border: 2px dashed var(--border-color);
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .row-label {
+            position: absolute;
+            top: -14px;
+            left: 20px;
+            background-color: var(--light-text);
+            padding: 0 10px;
+            font-weight: 700;
+            color: var(--aggie-blue);
+            font-size: 1.2em;
+        }
+
+        .cabinet {
+            background-color: var(--aggie-blue);
+            color: var(--light-text);
+            padding: 20px;
+            border-radius: 6px;
+            min-width: 130px;
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+        }
+
+        .cabinet:hover {
+            transform: translateY(-5px);
+            background-color: #003366; /* Darker blue on hover */
+            box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+        }
+        
+        /* --- Modal (Drill-Down) Styles --- */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.75);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        .modal-overlay.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal-content {
+            background-color: var(--light-text);
+            border-radius: 12px;
+            width: 90%;
+            max-width: 700px;
+            max-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            transform: scale(0.95);
+            transition: transform 0.3s ease;
+        }
+        
+        .modal-overlay.visible .modal-content {
+            transform: scale(1);
+        }
+
+        .modal-header {
+            background-color: var(--aggie-blue);
+            color: var(--aggie-gold);
+            padding: 15px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #modal-title {
+            font-size: 2em;
+            font-weight: 900;
+            margin: 0;
+        }
+        
+        .modal-close {
+            font-size: 2em;
+            font-weight: bold;
+            color: var(--light-text);
+            cursor: pointer;
+            border: none;
+            background: none;
+            transition: color 0.2s;
+        }
+        .modal-close:hover {
+            color: var(--aggie-gold);
+        }
+        
+        .rack-view {
+            padding: 20px;
+            overflow-y: auto;
+            background-color: var(--light-gray);
+        }
+        
+        /* --- Rack & Asset Styles (Inside Modal) --- */
+        .asset-item {
+            background-color: var(--light-text);
+            border: 1px solid var(--border-color);
+            border-left: 6px solid var(--aggie-gold);
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+        }
+        
+        .asset-item.not-found {
+            border-left-color: #95a5a6;
+            color: #7f8c8d;
+        }
+        
+        .asset-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .asset-position {
+            font-weight: 700;
+            font-size: 1.1em;
+            color: var(--aggie-blue);
+            min-width: 45px;
+            text-align: center;
+        }
+
+        .asset-name {
+            font-weight: 700;
+            font-size: 1.2em;
+            color: var(--dark-text);
+            flex-grow: 1;
+        }
+        
+        .coe-icon {
+            color: var(--aggie-blue);
+            font-size: 1.5em;
+            opacity: 0.8;
+        }
+
+        .asset-details {
+            padding-left: 10px;
+            border-left: 2px solid #eee;
+            margin-left: 20px;
+            font-size: 0.95em;
+        }
+        
+        .detail-item {
+            margin-bottom: 5px;
+        }
+
+        .detail-label {
+            font-weight: 600;
+            color: #555;
+            margin-right: 8px;
+        }
+
+    </style>
+        <style>
+            .back-link {
+                text-decoration: none;
+                color: var(--aggie-blue);
+                font-weight: 700;
+                font-size: 0.9em;
+                text-transform: uppercase;
+            }
+        </style>
+        <div class="back-link-container">
+            <a href="index.html#building=McNair%20Hall&floor=2" class="back-link">
+                &larr; Back to McNair Hall - Floor 2
+            </a>
+        </div>
+        <h1>McNair 225 Room Layout</h1>
+        <h2>Click a cabinet to see its contents</h2>
+
+        <div class="cabinet-row">
+            <div class="row-label">Back Row</div>
+            <div class="cabinet" data-cabinet-id="Cabinet 0">Cabinet 0</div>
+            <div class="cabinet" data-cabinet-id="Cabinet 1">Cabinet 1</div>
+            <div class="cabinet" data-cabinet-id="Cabinet 2">Cabinet 2</div>
+            <div class="cabinet" data-cabinet-id="Cabinet 3">Cabinet 3</div>
+            <div class="cabinet" data-cabinet-id="Cabinet 4">Cabinet 4</div>
+        </div>
+        <div class="cabinet-row">
+            <div class="row-label">Front Row</div>
+            <div class="cabinet" data-cabinet-id="Cabinet 9">Cabinet 9</div>
+            <div class="cabinet" data-cabinet-id="Cabinet 8">Cabinet 8</div>
+            <div class="cabinet" data-cabinet-id="Cabinet 7">Cabinet 7</div>
+            <div class="cabinet" data-cabinet-id="Cabinet 6">Cabinet 6</div>
+            <div class="cabinet" data-cabinet-id="Cabinet 5">Cabinet 5</div>
+        </div>
+        <div class="cabinet-row">
+            <div class="row-label">Extended Cabinets</div>
+            <div class="cabinet" data-cabinet-id="WHTcabinet 1">WHT Cab 1</div>
+            <div class="cabinet" data-cabinet-id="WHTcabinet 2">WHT Cab 2</div>
+            <div class="cabinet" data-cabinet-id="WHTcabinet 3">WHT Cab 3</div>
+            <div class="cabinet" data-cabinet-id="Cabinet 10">Cabinet 10</div>
+            <div class="cabinet" data-cabinet-id="Cabinet 11">Cabinet 11</div>
+            <div class="cabinet" data-cabinet-id="Cabinet 12">Cabinet 12</div>
+        </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Cabinet Contents</h3>
+                <button class="modal-close" id="modal-close-button">&times;</button>
+            </div>
+            <div class="rack-view" id="rack-view">
+                <!-- Asset items will be dynamically injected here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Full inventory data with added details from the spreadsheet
+        const inventoryData = [
+            { assetName: "RareQuartz", description: "PowerEdge R730xd Server", serialNumber: "13NLHH2", assetArea: "Limbrick - faculty servers", machinery: "R730", assetTag: "P0072732 - Christopher Doss", location: "Cabinet 7", fromTop: "3" },
+            { assetName: "PVS1", description: "SERVER 1 OF 2", serialNumber: "17YXZL2", assetArea: "Unknown", machinery: "R730", assetTag: "P0078745 - Tim Wilder", location: "Cabinet 3", fromTop: "5" },
+            { assetName: "PVS2", description: "SERVER 2 OF 2", serialNumber: "17YYZL2", assetArea: "Unknown", machinery: "R730", assetTag: "P0078745 - Tim Wilder", location: "Cabinet 3", fromTop: "6" },
+            { assetName: "DELL EMC SRV", description: "", serialNumber: "18YZWM3", assetArea: "Unknown", machinery: "R440", assetTag: "", location: "Cabinet 3", fromTop: "8" },
+            { assetName: "storagemanager", description: "", serialNumber: "2DB5DP2", assetArea: "Unknown", machinery: "OptiPlex 5050", assetTag: "not on propety list for McNair 225", location: "Cabinet 1", fromTop: "1" },
+            { assetName: "RareOpal", description: "", serialNumber: "2PJ0F4Z", assetArea: "Limbrick - faculty servers", machinery: "precision 7810", assetTag: "not on propety list for McNair 225", location: "Cabinet 11", fromTop: "6" },
+            { assetName: "COEESX9", description: "", serialNumber: "39YBBZ1", assetArea: "ESX", machinery: "R715", assetTag: "not on propety list for McNair 225", location: "Cabinet 10", fromTop: "4" },
+            { assetName: "COEESX02", description: "", serialNumber: "3M3TPS1", assetArea: "ESX", machinery: "R715", assetTag: "P0034625 - Tim Wilder", location: "Cabinet 9", fromTop: "9" },
+            { assetName: "COEESX01", description: "", serialNumber: "3M3VPS1", assetArea: "ESX", machinery: "R715", assetTag: "P0034625 - Tim Wilder", location: "Cabinet 9", fromTop: "10" },
+            { assetName: "EngSAM - Solarwinds", description: "", serialNumber: "3M3XPS1", assetArea: "Unknown", machinery: "R715", assetTag: "P0034625 - Tim Wilder provisioning server citrix", location: "Cabinet 10", fromTop: "9" },
+            { assetName: "COERHEL2", description: "Server", serialNumber: "3QSF1L1", assetArea: "Unknown", machinery: "R805", assetTag: "P0016218- not in aggiemart", location: "Cabinet 6", fromTop: "2" },
+            { assetName: "EngRhelsrv", description: "SERVER", serialNumber: "3QSSFZ1", assetArea: "Unknown", machinery: "R620", assetTag: "P0048219-Tim Wilder", location: "Cabinet 9", fromTop: "1" },
+            { assetName: "COEESX19", description: "210-ACXU-PowerEdge R730 Server", serialNumber: "406RFB2", assetArea: "ESX", machinery: "R730", assetTag: "P0054278 - Tim Wilder", location: "Cabinet 9", fromTop: "8" },
+            { assetName: "ENGFS02", description: "PowerEdge R730 Server 3 OF 4", serialNumber: "406SFB2", assetArea: "Unknown", machinery: "R730", assetTag: "P0065014 - Tim Wilder", location: "Cabinet 2", fromTop: "7" },
+            { assetName: "COEESX26", description: "PowerEdge R730 Server 1 OF 4", serialNumber: "406TFB2", assetArea: "ESX", machinery: "R730", assetTag: "P0065014 - Tim Wilder", location: "Cabinet 2", fromTop: "5" },
+            { assetName: "ENGFS01", description: "PowerEdge R730 Server 2 OF 4", serialNumber: "406VFB2", assetArea: "Unknown", machinery: "R730", assetTag: "P0065014 - Tim Wilder", location: "Cabinet 2", fromTop: "6" },
+            { assetName: "Adept", description: "DELL SERVER", serialNumber: "60H88Z1", assetArea: "Limbrick - faculty servers", machinery: "R720", assetTag: "P0045713 - Limbrick", location: "Cabinet 6", fromTop: "7" },
+            { assetName: "Cadence 3", description: "R820-PowerEdge Intel Xeon Proc", serialNumber: "68LTC42", assetArea: "Limbrick - faculty servers", machinery: "R820", assetTag: "P0057338- Dogan", location: "Cabinet 6", fromTop: "6" },
+            { assetName: "RarePeral", description: "PowerEdge R730 1 OF 3", serialNumber: "6MZRRD2", assetArea: "Limbrick - faculty servers", machinery: "R730", assetTag: "P0068862 - Christopher Doss", location: "Cabinet 7", fromTop: "4" },
+            { assetName: "RareSapphire", description: "PowerEdge R730 3 OF 3", serialNumber: "6N0QRD2", assetArea: "Unknown", machinery: "", assetTag: "P0068862 - Christopher Doss", location: "Cabinet 7", fromTop: "6" },
+            { assetName: "RareRuby", description: "PowerEdge R730 2 OF 3", serialNumber: "6N0RRD2", assetArea: "Limbrick - faculty servers", machinery: "R730", assetTag: "P0070340 - Christopher Doss", location: "Cabinet 7", fromTop: "5" },
+            { assetName: "ENGDC02", description: "", serialNumber: "7ML50C3", assetArea: "Unknown", machinery: "R440", assetTag: "", location: "Cabinet 0", fromTop: "1" },
+            { assetName: "ENGDC03", description: "", serialNumber: "7ML60C3", assetArea: "Unknown", machinery: "R440", assetTag: "", location: "Cabinet 0", fromTop: "2" },
+            { assetName: "SVC3000 Storage", description: "", serialNumber: "8JWS0T2", assetArea: "Storage", machinery: "SCv3000", assetTag: "P0089759 - Christopher Doss", location: "Cabinet 7", fromTop: "7" },
+            { assetName: "COEESX24", description: "PowerEdge R730 Server 2 OF 2", serialNumber: "8KXKW52", assetArea: "ESX", machinery: "R730", assetTag: "P0061022 - Tim Wilder", location: "Cabinet 1", fromTop: "4" },
+            { assetName: "COEESX25", description: "PowerEdge R730 Server 1 OF 2", serialNumber: "8KXLW52", assetArea: "ESX", machinery: "R730", assetTag: "P0061022 - Tim Wilder", location: "Cabinet 1", fromTop: "3" },
+            { assetName: "vxrail4", description: "", serialNumber: "8LX3Z23", assetArea: "Storage", machinery: "Vxrail", assetTag: "not on propety list for McNair 225", location: "Cabinet 0", fromTop: "4" },
+            { assetName: "vxrail5", description: "DELL EMC", serialNumber: "8LX4Z23", assetArea: "Storage", machinery: "Vxrail", assetTag: "not on propety list for McNair 225", location: "Cabinet 0", fromTop: "3" },
+            { assetName: "vxrail2", description: "", serialNumber: "8LX5Z23", assetArea: "Storage", machinery: "Vxrail", assetTag: "not on propety list for McNair 225", location: "Cabinet 0", fromTop: "6" },
+            { assetName: "vxrail3", description: "", serialNumber: "8LX6Z23", assetArea: "Storage", machinery: "Vxrail", assetTag: "not on propety list for McNair 225", location: "Cabinet 0", fromTop: "5" },
+            { assetName: "vxrail1", description: "", serialNumber: "8LXXY23", assetArea: "Storage", machinery: "Vxrail", assetTag: "not on propety list for McNair 225", location: "Cabinet 0", fromTop: "7" },
+            { assetName: "PowerVault", description: "POWERVAULT TL2000", serialNumber: "9CQRJL1", assetArea: "Unknown", machinery: "PowerVault TL2000", assetTag: "P0017793 - not in aggiemart", location: "Cabinet 9", fromTop: "3" },
+            { assetName: "ADAQUS RSH", description: "", serialNumber: "BBMSNL1", assetArea: "Unknown", machinery: "R410", assetTag: "not on propety list for McNair 225", location: "Cabinet 6", fromTop: "1" },
+            { assetName: "COERHEL8", description: "PowerEdge R620", serialNumber: "BDHL9Z1", assetArea: "Unknown", machinery: "R620", assetTag: "P0046918- Tim Wilder", location: "Cabinet 9", fromTop: "2" },
+            { assetName: "COEESX29", description: "PowerEdge R730 2 OF 4", serialNumber: "BPN2JH2", assetArea: "ESX", machinery: "R730", assetTag: "not on propety list for McNair 225", location: "Cabinet 2", fromTop: "2" },
+            { assetName: "COEESX28", description: "PowerEdge R730 2 OF 4", serialNumber: "BPN6JH2", assetArea: "ESX", machinery: "R730", assetTag: "not on propety list for McNair 225", location: "Cabinet 2", fromTop: "3" },
+            { assetName: "COEESX30", description: "PowerEdge R730 1 of 4", serialNumber: "BPN7JH2", assetArea: "ESX", machinery: "R730", assetTag: "not on propety list for McNair 225", location: "Cabinet 2", fromTop: "1" },
+            { assetName: "COEESX27", description: "PowerEdge R730", serialNumber: "BPN8JH2", assetArea: "ESX", machinery: "R730", assetTag: "not on propety list for McNair 225", location: "Cabinet 2", fromTop: "4" },
+            { assetName: "Cadence 4", description: "PowerEdge R730;PowerEdge R730", serialNumber: "BRHZHH2", assetArea: "Limbrick - faculty servers", machinery: "R730", assetTag: "P0074976- Tim Wilder", location: "Cabinet 6", fromTop: "5" },
+            { assetName: "need Name/IP", description: "NETWORKING", serialNumber: "C06KH63", assetArea: "Unknown", machinery: "EMC\\SC400 - PowerVault ME4012", assetTag: "", location: "Cabinet 1", fromTop: "6" },
+            { assetName: "Tracefire", description: "DELL COMPUTER", serialNumber: "C1FTPS1", assetArea: "Limbrick - faculty servers", machinery: "R715", assetTag: "P0034370 -Tim Wilder Provisioning server Citrix", location: "Cabinet 10", fromTop: "2" },
+            { assetName: "EngCSXen1", description: "DELL", serialNumber: "C1FXPS1", assetArea: "Limbrick - faculty servers", machinery: "R715", assetTag: "P0034370 -Tim Wilder Provisioning server Citrix", location: "Cabinet 10", fromTop: "1" },
+            { assetName: "COEESX1", description: "DELL COMPUTER", serialNumber: "C1GSPS1", assetArea: "ESX", machinery: "R715", assetTag: "P0034370 -Tim Wilder Provisioning server Citrix", location: "Cabinet 10", fromTop: "3" },
+            { assetName: "Cadence", description: "R815 CHASSIS", serialNumber: "C5DGXP1", assetArea: "Limbrick - faculty servers", machinery: "R815", assetTag: "P0023334 - not in aggiemart", location: "Cabinet 6", fromTop: "9" },
+            { assetName: "COEESX31", description: "DELL EMC  R740 1 OF 4", serialNumber: "CM6N2N3", assetArea: "ESX", machinery: "Dell EMC vSAN R740 Ready Node", assetTag: "P0119044 -Tim Wilder vSan", location: "Cabinet 2", fromTop: "8" },
+            { assetName: "COEESX33", description: "DELL EMC R740 3 OF 4", serialNumber: "DM6N2N3", assetArea: "ESX", machinery: "Dell EMC vSAN R740 Ready Node", assetTag: "P0119044 -Tim Wilder vSan", location: "Cabinet 2", fromTop: "10" },
+            { assetName: "Adept2", description: "DELL POWEREDGE", serialNumber: "DR3CY43", assetArea: "Limbrick - faculty servers", machinery: "R740", assetTag: "P0104008 - Dr. Limbrick", location: "Cabinet 8", fromTop: "1" },
+            { assetName: "COEESX34", description: "DELL EMC R740 4 OF 4", serialNumber: "FM6N2N3", assetArea: "ESX", machinery: "Dell EMC vSAN R740 Ready Node", assetTag: "P0119044 -Tim Wilder vSan", location: "Cabinet 2", fromTop: "11" },
+            { assetName: "COEESX32", description: "DELL EMC R740 2 OF 4", serialNumber: "GM6N2N3", assetArea: "ESX", machinery: "Dell EMC vSAN R740 Ready Node", assetTag: "P0119044 -Tim Wilder vSan", location: "Cabinet 2", fromTop: "9" },
+            { assetName: "need Name/IP", description: "DELL ENCLOSURE", serialNumber: "H3QQR33", assetArea: "Unknown", machinery: "EMC\\SC420", assetTag: "P0103435 - Tim Wilder", location: "Cabinet 1", fromTop: "7" },
+            { assetName: "SC5020", description: "", serialNumber: "H3QRR33", assetArea: "Unknown", machinery: "EMC\\SC5020", assetTag: "P0103435 - Tim Wilder", location: "Cabinet 1", fromTop: "8" },
+            { assetName: "COEESX23", description: "PowerEdge R730 4 OF 4", serialNumber: "HPF5P22", assetArea: "ESX", machinery: "R730", assetTag: "P0054278 - Tim Wilder", location: "Cabinet 9", fromTop: "7" },
+            { assetName: "COEESX20", description: "SERVER", serialNumber: "HPF6P22", assetArea: "ESX", machinery: "R730", assetTag: "P0054278 - Tim Wilder", location: "Cabinet 9", fromTop: "4" },
+            { assetName: "COEESX22", description: "PowerEdge R730 Server 3 OF 4", serialNumber: "HPG4P22", assetArea: "ESX", machinery: "R730", assetTag: "P0054278 - Tim Wilder", location: "Cabinet 9", fromTop: "6" },
+            { assetName: "COEESX21", description: "PowerEdge R730  2 OF 4", serialNumber: "HPG5P22", assetArea: "ESX", machinery: "R730", assetTag: "P0054278 - Tim Wilder", location: "Cabinet 9", fromTop: "5" },
+            { assetName: "Kelly", description: "", serialNumber: "HZYDH63", assetArea: "Limbrick - faculty servers", machinery: "R7525", assetTag: "?", location: "Cabinet 8", fromTop: "3" },
+            { assetName: "RFServe1", description: "", serialNumber: "HZYGH63", assetArea: "Limbrick - faculty servers", machinery: "R7525", assetTag: "Dr. Erogulu License Server (Keysight, ANSC, etc.)", location: "Cabinet 8", fromTop: "2" },
+            { assetName: "n001", description: "", serialNumber: "", assetArea: "Storage", machinery: "PSSC Labs", assetTag: "", location: "Cabinet 12", fromTop: "5" },
+            { assetName: "n002", description: "", serialNumber: "", assetArea: "Storage", machinery: "PSSC Labs", assetTag: "", location: "Cabinet 12", fromTop: "4" },
+            { assetName: "n003", description: "", serialNumber: "", assetArea: "Storage", machinery: "PSSC Labs", assetTag: "", location: "Cabinet 12", fromTop: "3" },
+            { assetName: "n004", description: "", serialNumber: "", assetArea: "Storage", machinery: "PSSC Labs", assetTag: "", location: "Cabinet 12", fromTop: "2" },
+            { assetName: "n005", description: "", serialNumber: "", assetArea: "Storage", machinery: "PSSC Labs", assetTag: "", location: "Cabinet 12", fromTop: "1" },
+            { assetName: "(8)supermicro-  arrays", description: "", serialNumber: "", assetArea: "Unknown", machinery: "(8)supermicro-  arrays", assetTag: "", location: "Cabinet 5", fromTop: "1" },
+            { assetName: "", description: "", serialNumber: "150684", assetArea: "Unknown", machinery: "supermicro- sotrage", assetTag: "", location: "Cabinet 5", fromTop: "2" },
+            { assetName: "cyberPower", description: "", serialNumber: "", assetArea: "Unknown", machinery: "cyberPower", assetTag: "", location: "Cabinet 5", fromTop: "3" },
+            { assetName: "Networking Gear", description: "", serialNumber: "", assetArea: "Unknown", machinery: "Networking Gear", assetTag: "", location: "WHTcabinet 1", fromTop: "N/A" },
+            { assetName: "OLD Digital Sign", description: "224-5229-Dell Precision T7500", serialNumber: "CL8V3V1", assetArea: "Unknown", machinery: "Precision T7500", assetTag: "P0034713- Digital sign", location: "WHTcabinet 2", fromTop: "1" },
+            { assetName: "Digital Sign", description: "", serialNumber: "2LR6S52", assetArea: "Unknown", machinery: "", assetTag: "Troy uses for Digital Camera Service", location: "WHTcabinet 2", fromTop: "2" },
+            { assetName: "need Name/IP", description: "", serialNumber: "", assetArea: "Unknown", machinery: "drobo", assetTag: "", location: "WHTcabinet 3", fromTop: "1" },
+        ];
+
+
+        // DOM Elements
+        const cabinets = document.querySelectorAll('.cabinet');
+        const modalOverlay = document.getElementById('modal-overlay');
+        const modalTitle = document.getElementById('modal-title');
+        const rackView = document.getElementById('rack-view');
+        const closeModalButton = document.getElementById('modal-close-button');
+
+        // Custom sort for 'fromTop' values (handles numbers and text)
+        const sortAssets = (a, b) => {
+            const valA = String(a.fromTop).toLowerCase();
+            const valB = String(b.fromTop).toLowerCase();
+            const numA = parseInt(valA, 10);
+            const numB = parseInt(valB, 10);
+            
+            if (!isNaN(numA) && !isNaN(numB)) {
+                return numA - numB;
+            }
+            return valA.localeCompare(valB); // Alphabetical for non-numeric
+        };
+        
+        // Function to open the modal and populate it with data
+        const openModal = (cabinetId, cabinetName) => {
+            const assetsInCabinet = inventoryData.filter(item => item.location === cabinetId);
+            assetsInCabinet.sort(sortAssets);
+
+            modalTitle.textContent = cabinetName;
+            rackView.innerHTML = ''; // Clear previous content
+            
+            if (assetsInCabinet.length > 0) {
+                assetsInCabinet.forEach(asset => {
+                    const assetDiv = document.createElement('div');
+                    assetDiv.className = 'asset-item';
+                    
+                    const assetName = asset.assetName || 'Unnamed Asset';
+                    const assetPosition = asset.fromTop || '?';
+
+                    // Check if asset is COE-related to show gear icon
+                    let iconHtml = '';
+                    if (asset.assetArea === 'ESX' || (asset.assetName && asset.assetName.startsWith('COE'))) {
+                        iconHtml = '<i class="fas fa-cog coe-icon" title="College of Engineering Asset"></i>';
+                    }
+
+                    assetDiv.innerHTML = `
+                        <div class="asset-header">
+                            <span class="asset-position"># ${assetPosition}</span>
+                            <span class="asset-name">${assetName}</span>
+                            ${iconHtml}
+                        </div>
+                        <div class="asset-details">
+                            <div class="detail-item"><span class="detail-label">Description:</span> ${asset.description || 'N/A'}</div>
+                            <div class="detail-item"><span class="detail-label">Serial:</span> ${asset.serialNumber || 'N/A'}</div>
+                            <div class="detail-item"><span class="detail-label">Machinery:</span> ${asset.machinery || 'N/A'}</div>
+                            <div class="detail-item"><span class="detail-label">Asset Tag:</span> ${asset.assetTag || 'N/A'}</div>
+                        </div>
+                    `;
+                    rackView.appendChild(assetDiv);
+                });
+            } else {
+                rackView.innerHTML = '<div class="asset-item not-found"><span>No assets found for this cabinet in the inventory.</span></div>';
+            }
+
+            modalOverlay.classList.add('visible');
+        };
+
+        const closeModal = () => {
+            modalOverlay.classList.remove('visible');
+        };
+
+        // Event Listeners
+        cabinets.forEach(cabinet => {
+            cabinet.addEventListener('click', () => {
+                const cabinetId = cabinet.getAttribute('data-cabinet-id');
+                const cabinetName = cabinet.textContent;
+                openModal(cabinetId, cabinetName);
+            });
+        });
+
+        closeModalButton.addEventListener('click', closeModal);
+        modalOverlay.addEventListener('click', (event) => {
+            if (event.target === modalOverlay) closeModal();
+        });
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') closeModal();
+        });
+
+    </script>
+</body>
+</html>
