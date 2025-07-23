@@ -1,0 +1,7069 @@
+{
+  "buildings": {
+    "McNair": {
+      "rooms": [
+        "135",
+        "130",
+        "205",
+        "126",
+        "213",
+        "132",
+        "214",
+        "129",
+        "128",
+        "238",
+        "123",
+        "224",
+        "301",
+        "223",
+        "239",
+        "LR-4"
+      ],
+      "max_capacity": 50,
+      "room_count": 16
+    },
+    "Graham": {
+      "rooms": [
+        "208",
+        "106",
+        "203",
+        "206",
+        "204",
+        "210",
+        "301",
+        "110",
+        "307",
+        "304",
+        "108",
+        "102"
+      ],
+      "max_capacity": 124,
+      "room_count": 12
+    },
+    "Monroe": {
+      "rooms": [
+        "110",
+        "214",
+        "217",
+        "321",
+        "121"
+      ],
+      "max_capacity": 30,
+      "room_count": 5
+    },
+    "M-ERIC": {
+      "rooms": [
+        "300",
+        "400",
+        "200"
+      ],
+      "max_capacity": 90,
+      "room_count": 3
+    },
+    "SOCK": {
+      "rooms": [
+        "104"
+      ],
+      "max_capacity": 28,
+      "room_count": 1
+    },
+    "GIBBS": {
+      "rooms": [
+        "317"
+      ],
+      "max_capacity": 50,
+      "room_count": 1
+    },
+    "ACB": {
+      "rooms": [
+        "211"
+      ],
+      "max_capacity": 50,
+      "room_count": 1
+    },
+    "FRYE": {
+      "rooms": [
+        "107",
+        "101"
+      ],
+      "max_capacity": 245,
+      "room_count": 2
+    },
+    "HINES": {
+      "rooms": [
+        "302"
+      ],
+      "max_capacity": 25,
+      "room_count": 1
+    }
+  },
+  "occupancy": {
+    "McNair": {
+      "Monday": {
+        "8:00 AM": {
+          "enrolled": 12,
+          "active_rooms": 7,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 12,
+          "active_rooms": 7,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 176,
+          "active_rooms": 12,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 172,
+          "active_rooms": 9,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 220,
+          "active_rooms": 11,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 217,
+          "active_rooms": 10,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 183,
+          "active_rooms": 8,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 183,
+          "active_rooms": 7,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        }
+      },
+      "Tuesday": {
+        "8:00 AM": {
+          "enrolled": 1,
+          "active_rooms": 2,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 1,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 35,
+          "active_rooms": 2,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 142,
+          "active_rooms": 7,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 188,
+          "active_rooms": 9,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 188,
+          "active_rooms": 9,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 130,
+          "active_rooms": 8,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 100,
+          "active_rooms": 7,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 30,
+          "active_rooms": 4,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        }
+      },
+      "Wednesday": {
+        "8:00 AM": {
+          "enrolled": 13,
+          "active_rooms": 6,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 12,
+          "active_rooms": 6,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 176,
+          "active_rooms": 12,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 172,
+          "active_rooms": 9,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 220,
+          "active_rooms": 11,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 217,
+          "active_rooms": 10,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 183,
+          "active_rooms": 8,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 183,
+          "active_rooms": 7,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        }
+      },
+      "Thursday": {
+        "8:00 AM": {
+          "enrolled": 9,
+          "active_rooms": 2,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 9,
+          "active_rooms": 2,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 41,
+          "active_rooms": 3,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 148,
+          "active_rooms": 8,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 169,
+          "active_rooms": 8,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 169,
+          "active_rooms": 8,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 101,
+          "active_rooms": 6,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 71,
+          "active_rooms": 5,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 30,
+          "active_rooms": 4,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        }
+      },
+      "Friday": {
+        "8:00 AM": {
+          "enrolled": 8,
+          "active_rooms": 3,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 8,
+          "active_rooms": 3,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 169,
+          "active_rooms": 8,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 169,
+          "active_rooms": 8,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 217,
+          "active_rooms": 9,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 217,
+          "active_rooms": 9,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 136,
+          "active_rooms": 6,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 136,
+          "active_rooms": 6,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 6,
+          "active_rooms": 1,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 6,
+          "active_rooms": 1,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50
+        }
+      }
+    },
+    "Graham": {
+      "Monday": {
+        "8:00 AM": {
+          "enrolled": 30,
+          "active_rooms": 1,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "8:30 AM": {
+          "enrolled": 30,
+          "active_rooms": 1,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "9:00 AM": {
+          "enrolled": 130,
+          "active_rooms": 3,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "9:30 AM": {
+          "enrolled": 130,
+          "active_rooms": 3,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "10:00 AM": {
+          "enrolled": 134,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "10:30 AM": {
+          "enrolled": 134,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "11:00 AM": {
+          "enrolled": 143,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "11:30 AM": {
+          "enrolled": 143,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        }
+      },
+      "Tuesday": {
+        "8:00 AM": {
+          "enrolled": 125,
+          "active_rooms": 4,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "8:30 AM": {
+          "enrolled": 155,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "9:00 AM": {
+          "enrolled": 179,
+          "active_rooms": 7,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "9:30 AM": {
+          "enrolled": 220,
+          "active_rooms": 9,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "10:00 AM": {
+          "enrolled": 183,
+          "active_rooms": 8,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "10:30 AM": {
+          "enrolled": 183,
+          "active_rooms": 8,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "11:00 AM": {
+          "enrolled": 175,
+          "active_rooms": 6,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "11:30 AM": {
+          "enrolled": 155,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "12:00 PM": {
+          "enrolled": 103,
+          "active_rooms": 3,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "12:30 PM": {
+          "enrolled": 32,
+          "active_rooms": 2,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        }
+      },
+      "Wednesday": {
+        "8:00 AM": {
+          "enrolled": 66,
+          "active_rooms": 2,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "8:30 AM": {
+          "enrolled": 66,
+          "active_rooms": 2,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "9:00 AM": {
+          "enrolled": 94,
+          "active_rooms": 3,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "9:30 AM": {
+          "enrolled": 94,
+          "active_rooms": 3,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "10:00 AM": {
+          "enrolled": 165,
+          "active_rooms": 6,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "10:30 AM": {
+          "enrolled": 165,
+          "active_rooms": 6,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "11:00 AM": {
+          "enrolled": 204,
+          "active_rooms": 7,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "11:30 AM": {
+          "enrolled": 204,
+          "active_rooms": 7,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "12:00 PM": {
+          "enrolled": 30,
+          "active_rooms": 1,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "12:30 PM": {
+          "enrolled": 30,
+          "active_rooms": 1,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        }
+      },
+      "Thursday": {
+        "8:00 AM": {
+          "enrolled": 118,
+          "active_rooms": 4,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "8:30 AM": {
+          "enrolled": 148,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "9:00 AM": {
+          "enrolled": 158,
+          "active_rooms": 6,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "9:30 AM": {
+          "enrolled": 179,
+          "active_rooms": 7,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "10:00 AM": {
+          "enrolled": 119,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "10:30 AM": {
+          "enrolled": 119,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "11:00 AM": {
+          "enrolled": 143,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "11:30 AM": {
+          "enrolled": 143,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "12:00 PM": {
+          "enrolled": 121,
+          "active_rooms": 4,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "12:30 PM": {
+          "enrolled": 50,
+          "active_rooms": 3,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        }
+      },
+      "Friday": {
+        "8:00 AM": {
+          "enrolled": 20,
+          "active_rooms": 1,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "8:30 AM": {
+          "enrolled": 20,
+          "active_rooms": 1,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "9:00 AM": {
+          "enrolled": 48,
+          "active_rooms": 2,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "9:30 AM": {
+          "enrolled": 48,
+          "active_rooms": 2,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "10:00 AM": {
+          "enrolled": 83,
+          "active_rooms": 4,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "10:30 AM": {
+          "enrolled": 83,
+          "active_rooms": 4,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "11:00 AM": {
+          "enrolled": 81,
+          "active_rooms": 4,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "11:30 AM": {
+          "enrolled": 81,
+          "active_rooms": 4,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "12:00 PM": {
+          "enrolled": 18,
+          "active_rooms": 1,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "12:30 PM": {
+          "enrolled": 18,
+          "active_rooms": 1,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124
+        }
+      }
+    },
+    "Monroe": {
+      "Monday": {
+        "8:00 AM": {
+          "enrolled": 4,
+          "active_rooms": 1,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "8:30 AM": {
+          "enrolled": 4,
+          "active_rooms": 1,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "9:00 AM": {
+          "enrolled": 43,
+          "active_rooms": 3,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "9:30 AM": {
+          "enrolled": 43,
+          "active_rooms": 3,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "10:00 AM": {
+          "enrolled": 4,
+          "active_rooms": 1,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "10:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        }
+      },
+      "Tuesday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "10:00 AM": {
+          "enrolled": 29,
+          "active_rooms": 2,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "10:30 AM": {
+          "enrolled": 29,
+          "active_rooms": 2,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "11:00 AM": {
+          "enrolled": 39,
+          "active_rooms": 3,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "11:30 AM": {
+          "enrolled": 39,
+          "active_rooms": 3,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "12:00 PM": {
+          "enrolled": 10,
+          "active_rooms": 1,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        }
+      },
+      "Wednesday": {
+        "8:00 AM": {
+          "enrolled": 4,
+          "active_rooms": 1,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "8:30 AM": {
+          "enrolled": 4,
+          "active_rooms": 1,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "9:00 AM": {
+          "enrolled": 43,
+          "active_rooms": 3,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "9:30 AM": {
+          "enrolled": 43,
+          "active_rooms": 3,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "10:00 AM": {
+          "enrolled": 4,
+          "active_rooms": 1,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "10:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        }
+      },
+      "Thursday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "10:00 AM": {
+          "enrolled": 50,
+          "active_rooms": 3,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "10:30 AM": {
+          "enrolled": 50,
+          "active_rooms": 3,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "11:00 AM": {
+          "enrolled": 60,
+          "active_rooms": 4,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "11:30 AM": {
+          "enrolled": 60,
+          "active_rooms": 4,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "12:00 PM": {
+          "enrolled": 10,
+          "active_rooms": 1,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        }
+      },
+      "Friday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "9:00 AM": {
+          "enrolled": 39,
+          "active_rooms": 2,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "9:30 AM": {
+          "enrolled": 39,
+          "active_rooms": 2,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "10:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "10:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30
+        }
+      }
+    },
+    "M-ERIC": {
+      "Monday": {
+        "8:00 AM": {
+          "enrolled": 205,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "8:30 AM": {
+          "enrolled": 205,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "9:00 AM": {
+          "enrolled": 156,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "9:30 AM": {
+          "enrolled": 156,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "10:00 AM": {
+          "enrolled": 167,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "10:30 AM": {
+          "enrolled": 167,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "11:00 AM": {
+          "enrolled": 81,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "11:30 AM": {
+          "enrolled": 81,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        }
+      },
+      "Tuesday": {
+        "8:00 AM": {
+          "enrolled": 207,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "8:30 AM": {
+          "enrolled": 207,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "9:00 AM": {
+          "enrolled": 207,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "9:30 AM": {
+          "enrolled": 50,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "10:00 AM": {
+          "enrolled": 50,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "10:30 AM": {
+          "enrolled": 50,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "11:00 AM": {
+          "enrolled": 24,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "11:30 AM": {
+          "enrolled": 24,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "12:00 PM": {
+          "enrolled": 24,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        }
+      },
+      "Wednesday": {
+        "8:00 AM": {
+          "enrolled": 205,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "8:30 AM": {
+          "enrolled": 205,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "9:00 AM": {
+          "enrolled": 156,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "9:30 AM": {
+          "enrolled": 156,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "10:00 AM": {
+          "enrolled": 167,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "10:30 AM": {
+          "enrolled": 167,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "11:00 AM": {
+          "enrolled": 81,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "11:30 AM": {
+          "enrolled": 81,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        }
+      },
+      "Thursday": {
+        "8:00 AM": {
+          "enrolled": 207,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "8:30 AM": {
+          "enrolled": 207,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "9:00 AM": {
+          "enrolled": 207,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "9:30 AM": {
+          "enrolled": 50,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "10:00 AM": {
+          "enrolled": 50,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "10:30 AM": {
+          "enrolled": 50,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "11:00 AM": {
+          "enrolled": 24,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "11:30 AM": {
+          "enrolled": 24,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "12:00 PM": {
+          "enrolled": 24,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        }
+      },
+      "Friday": {
+        "8:00 AM": {
+          "enrolled": 130,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "8:30 AM": {
+          "enrolled": 130,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "9:00 AM": {
+          "enrolled": 85,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "9:30 AM": {
+          "enrolled": 85,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "10:00 AM": {
+          "enrolled": 96,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "10:30 AM": {
+          "enrolled": 96,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "11:00 AM": {
+          "enrolled": 31,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "11:30 AM": {
+          "enrolled": 31,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90
+        }
+      }
+    },
+    "SOCK": {
+      "Monday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "10:00 AM": {
+          "enrolled": 5,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "10:30 AM": {
+          "enrolled": 5,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        }
+      },
+      "Tuesday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "9:30 AM": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "10:00 AM": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "10:30 AM": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        }
+      },
+      "Wednesday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "10:00 AM": {
+          "enrolled": 5,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "10:30 AM": {
+          "enrolled": 5,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        }
+      },
+      "Thursday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "9:30 AM": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "10:00 AM": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "10:30 AM": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        }
+      },
+      "Friday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "10:00 AM": {
+          "enrolled": 5,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "10:30 AM": {
+          "enrolled": 5,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "11:00 AM": {
+          "enrolled": 11,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "11:30 AM": {
+          "enrolled": 11,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "12:00 PM": {
+          "enrolled": 11,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "12:30 PM": {
+          "enrolled": 11,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28
+        }
+      }
+    },
+    "GIBBS": {
+      "Monday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 32,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 32,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        }
+      },
+      "Tuesday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        }
+      },
+      "Wednesday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 32,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 32,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        }
+      },
+      "Thursday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        }
+      },
+      "Friday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        }
+      }
+    },
+    "ACB": {
+      "Monday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        }
+      },
+      "Tuesday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        }
+      },
+      "Wednesday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        }
+      },
+      "Thursday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        }
+      },
+      "Friday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:00 AM": {
+          "enrolled": 32,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "10:30 AM": {
+          "enrolled": 32,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:00 AM": {
+          "enrolled": 32,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "11:30 AM": {
+          "enrolled": 32,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50
+        }
+      }
+    },
+    "FRYE": {
+      "Monday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "10:00 AM": {
+          "enrolled": 89,
+          "active_rooms": 1,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "10:30 AM": {
+          "enrolled": 89,
+          "active_rooms": 1,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        }
+      },
+      "Tuesday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "10:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "10:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        }
+      },
+      "Wednesday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "10:00 AM": {
+          "enrolled": 89,
+          "active_rooms": 1,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "10:30 AM": {
+          "enrolled": 89,
+          "active_rooms": 1,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        }
+      },
+      "Thursday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "10:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "10:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "11:00 AM": {
+          "enrolled": 302,
+          "active_rooms": 1,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "11:30 AM": {
+          "enrolled": 302,
+          "active_rooms": 1,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        }
+      },
+      "Friday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "10:00 AM": {
+          "enrolled": 89,
+          "active_rooms": 1,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "10:30 AM": {
+          "enrolled": 89,
+          "active_rooms": 1,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245
+        }
+      }
+    },
+    "HINES": {
+      "Monday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "10:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "10:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        }
+      },
+      "Tuesday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "10:00 AM": {
+          "enrolled": 7,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "10:30 AM": {
+          "enrolled": 7,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "11:00 AM": {
+          "enrolled": 7,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "11:30 AM": {
+          "enrolled": 7,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        }
+      },
+      "Wednesday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "10:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "10:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        }
+      },
+      "Thursday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "10:00 AM": {
+          "enrolled": 7,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "10:30 AM": {
+          "enrolled": 7,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "11:00 AM": {
+          "enrolled": 7,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "11:30 AM": {
+          "enrolled": 7,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        }
+      },
+      "Friday": {
+        "8:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "8:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "9:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "9:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "10:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "10:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "11:00 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "11:30 AM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "12:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "12:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "1:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "1:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "2:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "2:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "3:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "3:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "4:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "4:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "5:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "5:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "6:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "6:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "7:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "7:30 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        },
+        "8:00 PM": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25
+        }
+      }
+    }
+  },
+  "time_slots": [
+    {
+      "minutes": 480,
+      "display": "8:00 AM"
+    },
+    {
+      "minutes": 510,
+      "display": "8:30 AM"
+    },
+    {
+      "minutes": 540,
+      "display": "9:00 AM"
+    },
+    {
+      "minutes": 570,
+      "display": "9:30 AM"
+    },
+    {
+      "minutes": 600,
+      "display": "10:00 AM"
+    },
+    {
+      "minutes": 630,
+      "display": "10:30 AM"
+    },
+    {
+      "minutes": 660,
+      "display": "11:00 AM"
+    },
+    {
+      "minutes": 690,
+      "display": "11:30 AM"
+    },
+    {
+      "minutes": 720,
+      "display": "12:00 PM"
+    },
+    {
+      "minutes": 750,
+      "display": "12:30 PM"
+    },
+    {
+      "minutes": 780,
+      "display": "1:00 PM"
+    },
+    {
+      "minutes": 810,
+      "display": "1:30 PM"
+    },
+    {
+      "minutes": 840,
+      "display": "2:00 PM"
+    },
+    {
+      "minutes": 870,
+      "display": "2:30 PM"
+    },
+    {
+      "minutes": 900,
+      "display": "3:00 PM"
+    },
+    {
+      "minutes": 930,
+      "display": "3:30 PM"
+    },
+    {
+      "minutes": 960,
+      "display": "4:00 PM"
+    },
+    {
+      "minutes": 990,
+      "display": "4:30 PM"
+    },
+    {
+      "minutes": 1020,
+      "display": "5:00 PM"
+    },
+    {
+      "minutes": 1050,
+      "display": "5:30 PM"
+    },
+    {
+      "minutes": 1080,
+      "display": "6:00 PM"
+    },
+    {
+      "minutes": 1110,
+      "display": "6:30 PM"
+    },
+    {
+      "minutes": 1140,
+      "display": "7:00 PM"
+    },
+    {
+      "minutes": 1170,
+      "display": "7:30 PM"
+    },
+    {
+      "minutes": 1200,
+      "display": "8:00 PM"
+    }
+  ],
+  "days": [
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "colors": {
+    "aggie_blue": "#004684",
+    "aggie_gold": "#FDB927",
+    "gray": "#C2C2C2",
+    "engineering_red": "#A45248"
+  },
+  "fonts": {
+    "primary": "Montserrat",
+    "secondary": "Alfon"
+  },
+  "engineering_icon": "gear"
+}

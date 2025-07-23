@@ -1,0 +1,4413 @@
+{
+  "McNair": {
+    "max_capacity": 50,
+    "total_enrollment": 906,
+    "rooms": [
+      "135",
+      "130",
+      "205",
+      "126",
+      "213",
+      "132",
+      "214",
+      "129",
+      "128",
+      "238",
+      "123",
+      "224",
+      "301",
+      "223",
+      "239",
+      "LR-4"
+    ],
+    "room_count": 16,
+    "daily_schedule": {
+      "Monday": {
+        "8:00": {
+          "enrolled": 12,
+          "active_rooms": 7,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 24.0
+        },
+        "9:00": {
+          "enrolled": 176,
+          "active_rooms": 12,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 352.0
+        },
+        "10:00": {
+          "enrolled": 220,
+          "active_rooms": 11,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 440.0
+        },
+        "11:00": {
+          "enrolled": 183,
+          "active_rooms": 8,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 366.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      },
+      "Tuesday": {
+        "8:00": {
+          "enrolled": 1,
+          "active_rooms": 2,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 2.0
+        },
+        "9:00": {
+          "enrolled": 35,
+          "active_rooms": 2,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 70.0
+        },
+        "10:00": {
+          "enrolled": 188,
+          "active_rooms": 9,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 376.0
+        },
+        "11:00": {
+          "enrolled": 130,
+          "active_rooms": 8,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 260.0
+        },
+        "12:00": {
+          "enrolled": 30,
+          "active_rooms": 4,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 60.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      },
+      "Wednesday": {
+        "8:00": {
+          "enrolled": 13,
+          "active_rooms": 6,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 26.0
+        },
+        "9:00": {
+          "enrolled": 176,
+          "active_rooms": 12,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 352.0
+        },
+        "10:00": {
+          "enrolled": 220,
+          "active_rooms": 11,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 440.0
+        },
+        "11:00": {
+          "enrolled": 183,
+          "active_rooms": 8,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 366.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      },
+      "Thursday": {
+        "8:00": {
+          "enrolled": 9,
+          "active_rooms": 2,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 18.0
+        },
+        "9:00": {
+          "enrolled": 41,
+          "active_rooms": 3,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 82.0
+        },
+        "10:00": {
+          "enrolled": 169,
+          "active_rooms": 8,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 338.0
+        },
+        "11:00": {
+          "enrolled": 101,
+          "active_rooms": 6,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 202.0
+        },
+        "12:00": {
+          "enrolled": 30,
+          "active_rooms": 4,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 60.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      },
+      "Friday": {
+        "8:00": {
+          "enrolled": 8,
+          "active_rooms": 3,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 16.0
+        },
+        "9:00": {
+          "enrolled": 169,
+          "active_rooms": 8,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 338.0
+        },
+        "10:00": {
+          "enrolled": 217,
+          "active_rooms": 9,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 434.0
+        },
+        "11:00": {
+          "enrolled": 136,
+          "active_rooms": 6,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 272.0
+        },
+        "12:00": {
+          "enrolled": 6,
+          "active_rooms": 1,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 12.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 16,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      }
+    },
+    "peak_times": [
+      [
+        "Monday",
+        "10:00"
+      ],
+      [
+        "Wednesday",
+        "10:00"
+      ]
+    ],
+    "max_enrolled": 220
+  },
+  "Graham": {
+    "max_capacity": 124,
+    "total_enrollment": 988,
+    "rooms": [
+      "208",
+      "106",
+      "203",
+      "206",
+      "204",
+      "210",
+      "301",
+      "110",
+      "307",
+      "304",
+      "108",
+      "102"
+    ],
+    "room_count": 12,
+    "daily_schedule": {
+      "Monday": {
+        "8:00": {
+          "enrolled": 30,
+          "active_rooms": 1,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 24.2
+        },
+        "9:00": {
+          "enrolled": 130,
+          "active_rooms": 3,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 104.8
+        },
+        "10:00": {
+          "enrolled": 134,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 108.1
+        },
+        "11:00": {
+          "enrolled": 143,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 115.3
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        }
+      },
+      "Tuesday": {
+        "8:00": {
+          "enrolled": 125,
+          "active_rooms": 4,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 100.8
+        },
+        "9:00": {
+          "enrolled": 179,
+          "active_rooms": 7,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 144.4
+        },
+        "10:00": {
+          "enrolled": 183,
+          "active_rooms": 8,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 147.6
+        },
+        "11:00": {
+          "enrolled": 175,
+          "active_rooms": 6,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 141.1
+        },
+        "12:00": {
+          "enrolled": 103,
+          "active_rooms": 3,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 83.1
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        }
+      },
+      "Wednesday": {
+        "8:00": {
+          "enrolled": 66,
+          "active_rooms": 2,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 53.2
+        },
+        "9:00": {
+          "enrolled": 94,
+          "active_rooms": 3,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 75.8
+        },
+        "10:00": {
+          "enrolled": 165,
+          "active_rooms": 6,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 133.1
+        },
+        "11:00": {
+          "enrolled": 204,
+          "active_rooms": 7,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 164.5
+        },
+        "12:00": {
+          "enrolled": 30,
+          "active_rooms": 1,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 24.2
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        }
+      },
+      "Thursday": {
+        "8:00": {
+          "enrolled": 118,
+          "active_rooms": 4,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 95.2
+        },
+        "9:00": {
+          "enrolled": 158,
+          "active_rooms": 6,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 127.4
+        },
+        "10:00": {
+          "enrolled": 119,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 96.0
+        },
+        "11:00": {
+          "enrolled": 143,
+          "active_rooms": 5,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 115.3
+        },
+        "12:00": {
+          "enrolled": 121,
+          "active_rooms": 4,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 97.6
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        }
+      },
+      "Friday": {
+        "8:00": {
+          "enrolled": 20,
+          "active_rooms": 1,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 16.1
+        },
+        "9:00": {
+          "enrolled": 48,
+          "active_rooms": 2,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 38.7
+        },
+        "10:00": {
+          "enrolled": 83,
+          "active_rooms": 4,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 66.9
+        },
+        "11:00": {
+          "enrolled": 81,
+          "active_rooms": 4,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 65.3
+        },
+        "12:00": {
+          "enrolled": 18,
+          "active_rooms": 1,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 14.5
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 12,
+          "max_capacity": 124,
+          "percentage": 0.0
+        }
+      }
+    },
+    "peak_times": [
+      [
+        "Wednesday",
+        "11:00"
+      ]
+    ],
+    "max_enrolled": 204
+  },
+  "Monroe": {
+    "max_capacity": 30,
+    "total_enrollment": 132,
+    "rooms": [
+      "110",
+      "214",
+      "217",
+      "321",
+      "121"
+    ],
+    "room_count": 5,
+    "daily_schedule": {
+      "Monday": {
+        "8:00": {
+          "enrolled": 4,
+          "active_rooms": 1,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 13.3
+        },
+        "9:00": {
+          "enrolled": 43,
+          "active_rooms": 3,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 143.3
+        },
+        "10:00": {
+          "enrolled": 4,
+          "active_rooms": 1,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 13.3
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        }
+      },
+      "Tuesday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 29,
+          "active_rooms": 2,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 96.7
+        },
+        "11:00": {
+          "enrolled": 39,
+          "active_rooms": 3,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 130.0
+        },
+        "12:00": {
+          "enrolled": 10,
+          "active_rooms": 1,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 33.3
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        }
+      },
+      "Wednesday": {
+        "8:00": {
+          "enrolled": 4,
+          "active_rooms": 1,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 13.3
+        },
+        "9:00": {
+          "enrolled": 43,
+          "active_rooms": 3,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 143.3
+        },
+        "10:00": {
+          "enrolled": 4,
+          "active_rooms": 1,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 13.3
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        }
+      },
+      "Thursday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 50,
+          "active_rooms": 3,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 166.7
+        },
+        "11:00": {
+          "enrolled": 60,
+          "active_rooms": 4,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 200.0
+        },
+        "12:00": {
+          "enrolled": 10,
+          "active_rooms": 1,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 33.3
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        }
+      },
+      "Friday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 39,
+          "active_rooms": 2,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 130.0
+        },
+        "10:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 5,
+          "max_capacity": 30,
+          "percentage": 0.0
+        }
+      }
+    },
+    "peak_times": [
+      [
+        "Thursday",
+        "11:00"
+      ]
+    ],
+    "max_enrolled": 60
+  },
+  "M-ERIC": {
+    "max_capacity": 90,
+    "total_enrollment": 890,
+    "rooms": [
+      "300",
+      "400",
+      "200"
+    ],
+    "room_count": 3,
+    "daily_schedule": {
+      "Monday": {
+        "8:00": {
+          "enrolled": 205,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 227.8
+        },
+        "9:00": {
+          "enrolled": 156,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 173.3
+        },
+        "10:00": {
+          "enrolled": 167,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 185.6
+        },
+        "11:00": {
+          "enrolled": 81,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 90.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        }
+      },
+      "Tuesday": {
+        "8:00": {
+          "enrolled": 207,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 230.0
+        },
+        "9:00": {
+          "enrolled": 207,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 230.0
+        },
+        "10:00": {
+          "enrolled": 50,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 55.6
+        },
+        "11:00": {
+          "enrolled": 24,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 26.7
+        },
+        "12:00": {
+          "enrolled": 24,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 26.7
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        }
+      },
+      "Wednesday": {
+        "8:00": {
+          "enrolled": 205,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 227.8
+        },
+        "9:00": {
+          "enrolled": 156,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 173.3
+        },
+        "10:00": {
+          "enrolled": 167,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 185.6
+        },
+        "11:00": {
+          "enrolled": 81,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 90.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        }
+      },
+      "Thursday": {
+        "8:00": {
+          "enrolled": 207,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 230.0
+        },
+        "9:00": {
+          "enrolled": 207,
+          "active_rooms": 3,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 230.0
+        },
+        "10:00": {
+          "enrolled": 50,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 55.6
+        },
+        "11:00": {
+          "enrolled": 24,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 26.7
+        },
+        "12:00": {
+          "enrolled": 24,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 26.7
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        }
+      },
+      "Friday": {
+        "8:00": {
+          "enrolled": 130,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 144.4
+        },
+        "9:00": {
+          "enrolled": 85,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 94.4
+        },
+        "10:00": {
+          "enrolled": 96,
+          "active_rooms": 2,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 106.7
+        },
+        "11:00": {
+          "enrolled": 31,
+          "active_rooms": 1,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 34.4
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 3,
+          "max_capacity": 90,
+          "percentage": 0.0
+        }
+      }
+    },
+    "peak_times": [
+      [
+        "Tuesday",
+        "8:00"
+      ],
+      [
+        "Tuesday",
+        "9:00"
+      ],
+      [
+        "Thursday",
+        "8:00"
+      ],
+      [
+        "Thursday",
+        "9:00"
+      ]
+    ],
+    "max_enrolled": 207
+  },
+  "SOCK": {
+    "max_capacity": 28,
+    "total_enrollment": 19,
+    "rooms": [
+      "104"
+    ],
+    "room_count": 1,
+    "daily_schedule": {
+      "Monday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 5,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 17.9
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        }
+      },
+      "Tuesday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 10.7
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        }
+      },
+      "Wednesday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 5,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 17.9
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        }
+      },
+      "Thursday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 10.7
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        }
+      },
+      "Friday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 5,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 17.9
+        },
+        "11:00": {
+          "enrolled": 11,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 39.3
+        },
+        "12:00": {
+          "enrolled": 11,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 39.3
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 28,
+          "percentage": 0.0
+        }
+      }
+    },
+    "peak_times": [
+      [
+        "Friday",
+        "11:00"
+      ],
+      [
+        "Friday",
+        "12:00"
+      ]
+    ],
+    "max_enrolled": 11
+  },
+  "GIBBS": {
+    "max_capacity": 50,
+    "total_enrollment": 35,
+    "rooms": [
+      "317"
+    ],
+    "room_count": 1,
+    "daily_schedule": {
+      "Monday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 32,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 64.0
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      },
+      "Tuesday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 6.0
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      },
+      "Wednesday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 32,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 64.0
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      },
+      "Thursday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 3,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 6.0
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      },
+      "Friday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      }
+    },
+    "peak_times": [
+      [
+        "Monday",
+        "10:00"
+      ],
+      [
+        "Wednesday",
+        "10:00"
+      ]
+    ],
+    "max_enrolled": 32
+  },
+  "ACB": {
+    "max_capacity": 50,
+    "total_enrollment": 32,
+    "rooms": [
+      "211"
+    ],
+    "room_count": 1,
+    "daily_schedule": {
+      "Monday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      },
+      "Tuesday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      },
+      "Wednesday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      },
+      "Thursday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      },
+      "Friday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 32,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 64.0
+        },
+        "11:00": {
+          "enrolled": 32,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 64.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 50,
+          "percentage": 0.0
+        }
+      }
+    },
+    "peak_times": [
+      [
+        "Friday",
+        "10:00"
+      ],
+      [
+        "Friday",
+        "11:00"
+      ]
+    ],
+    "max_enrolled": 32
+  },
+  "FRYE": {
+    "max_capacity": 245,
+    "total_enrollment": 391,
+    "rooms": [
+      "107",
+      "101"
+    ],
+    "room_count": 2,
+    "daily_schedule": {
+      "Monday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 89,
+          "active_rooms": 1,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 36.3
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        }
+      },
+      "Tuesday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        }
+      },
+      "Wednesday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 89,
+          "active_rooms": 1,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 36.3
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        }
+      },
+      "Thursday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "11:00": {
+          "enrolled": 302,
+          "active_rooms": 1,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 123.3
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        }
+      },
+      "Friday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 89,
+          "active_rooms": 1,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 36.3
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 2,
+          "max_capacity": 245,
+          "percentage": 0.0
+        }
+      }
+    },
+    "peak_times": [
+      [
+        "Thursday",
+        "11:00"
+      ]
+    ],
+    "max_enrolled": 302
+  },
+  "HINES": {
+    "max_capacity": 25,
+    "total_enrollment": 7,
+    "rooms": [
+      "302"
+    ],
+    "room_count": 1,
+    "daily_schedule": {
+      "Monday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        }
+      },
+      "Tuesday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 7,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 28.0
+        },
+        "11:00": {
+          "enrolled": 7,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 28.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        }
+      },
+      "Wednesday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        }
+      },
+      "Thursday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 7,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 28.0
+        },
+        "11:00": {
+          "enrolled": 7,
+          "active_rooms": 1,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 28.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        }
+      },
+      "Friday": {
+        "8:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "9:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "10:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "11:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "12:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "13:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "14:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "15:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "16:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "17:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "18:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "19:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        },
+        "20:00": {
+          "enrolled": 0,
+          "active_rooms": 0,
+          "total_rooms": 1,
+          "max_capacity": 25,
+          "percentage": 0.0
+        }
+      }
+    },
+    "peak_times": [
+      [
+        "Tuesday",
+        "10:00"
+      ],
+      [
+        "Tuesday",
+        "11:00"
+      ],
+      [
+        "Thursday",
+        "10:00"
+      ],
+      [
+        "Thursday",
+        "11:00"
+      ]
+    ],
+    "max_enrolled": 7
+  }
+}

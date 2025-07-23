@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>N.C. A&T Campus Occupancy Simulation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root" class="container flex flex-col gap-16">
+      <!-- Header with A&T branding and current day & time -->
+      <header class="simulation-header">
+        <div class="aggie-branding">
+          <h1 class="aggie-title">N.C. A&T STATE UNIVERSITY</h1>
+          <p class="aggie-subtitle">Campus Building Occupancy Simulation</p>
+        </div>
+        <h2 id="current-date-time" class="current-time">Loading...</h2>
+      </header>
+
+      <!-- Building grid -->
+      <main id="building-grid" class="building-grid"></main>
+
+      <!-- Legend -->
+      <section class="legend flex gap-16 items-center">
+        <div class="legend-item flex gap-4 items-center">
+          <span class="legend-swatch swatch-empty"></span>
+          <span class="legend-label">Empty</span>
+        </div>
+        <div class="legend-item flex gap-4 items-center">
+          <span class="legend-swatch swatch-low"></span>
+          <span class="legend-label">Low (1–30%)</span>
+        </div>
+        <div class="legend-item flex gap-4 items-center">
+          <span class="legend-swatch swatch-medium"></span>
+          <span class="legend-label">Medium (31–70%)</span>
+        </div>
+        <div class="legend-item flex gap-4 items-center">
+          <span class="legend-swatch swatch-high"></span>
+          <span class="legend-label">High (71–100%)</span>
+        </div>
+        <div class="legend-item flex gap-4 items-center">
+          <span class="legend-swatch swatch-peak"></span>
+          <span class="legend-label">PEAK Time</span>
+        </div>
+      </section>
+
+      <!-- Control Panel -->
+      <footer class="control-panel flex items-center gap-16">
+        <button id="step-back" class="btn btn--secondary" aria-label="Step Backward">⏮️</button>
+        <button id="play-pause" class="btn btn--primary" aria-label="Play">▶️</button>
+        <button id="step-forward" class="btn btn--secondary" aria-label="Step Forward">⏭️</button>
+        <button id="reset" class="btn btn--outline" aria-label="Reset">🔄</button>
+
+        <label class="form-label" for="speed-select">Speed</label>
+        <select id="speed-select" class="form-control" aria-label="Speed">
+          <option value="0.5">0.5×</option>
+          <option value="1" selected>1×</option>
+          <option value="2">2×</option>
+          <option value="4">4×</option>
+        </select>
+
+        <label class="form-label" for="day-select">Day</label>
+        <select id="day-select" class="form-control" aria-label="Select Day"></select>
+
+        <input
+          type="range"
+          id="time-slider"
+          min="0"
+          max="24"
+          value="0"
+          aria-label="Time of Day Slider"
+          class="time-slider"
+        />
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
