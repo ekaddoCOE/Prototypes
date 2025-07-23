@@ -5,3 +5,4 @@ Rapid prototyping namespace
 3. Basic budget planner: https://ekaddocoe.github.io/Prototypes/Pipeline/FrontEnd/grant-budget-planner/
 4. Branded Budget Planner: https://ekaddocoe.github.io/Prototypes/Pipeline/FrontEnd/
 5. Classroom Schedule: https://ekaddocoe.github.io/Prototypes/schedule.html
+6. Classroom Simulation: https://ekaddocoe.github.io/Prototypes/Pipeline/Simulation
