@@ -15,7 +15,7 @@
                 <div class="header-brand">
                     <h1 class="brand-title">NC A&T College of Engineering</h1>
                     <p class="brand-subtitle">Facilities Browser</p>
-                    <a href="aerial.html" target="_blank" class="aerial-link">
+                    <a href="aerial.html" target="_blank" class="aerial-link" style="display:inline-block;margin-top:8px;font-weight:700;color:#002147;background-color:#fff;padding:4px 10px;border-radius:4px;text-decoration:underline;">
                         Aerial View of Engineering Buildings
                     </a>
                 </div>
@@ -74,13 +74,11 @@
                 <div class="filters-section">
                     <h3 class="filters-title">Filter Rooms</h3>
                     <div class="filters-row">
-                        <label for="roomUseFilter" class="visually-hidden">Room Type</label>
                         <select id="roomUseFilter" class="form-control filter-select">
                             <option value="">All Room Types</option>
                             <!-- Room use codes will be dynamically populated -->
                         </select>
-                        <label for="departmentFilter" class="visually-hidden">Department</label>
-                        <select id="departmentFilter" class="form-control filter-select" title="Department">
+                        <select id="departmentFilter" class="form-control filter-select">
                             <option value="">All Departments</option>
                             <!-- Departments will be dynamically populated -->
                         </select>
@@ -98,22 +96,8 @@
                         <div class="room-placeholder" id="roomPlaceholder">
                             <p>Select a room from the list to view details</p>
                         </div>
-                        <div class="room-detail-container" id="roomDetail">
+                        <div class="room-detail-container" id="roomDetail" style="display: none;">
                             <!-- Room details will be populated here -->
-                        </div>
-                    </div>
-                </div>
-
-                <!-- This section is for specific room links, like McNair 225. -->
-                <!-- It is assumed JS will show/hide this block based on the selected floor (e.g., McNair 2nd Floor). -->
-                <div id="interactiveLayouts">
-                    <h3 class="section-title">Interactive Room Layouts</h3>
-                    <div class="buildings-grid">
-                        <div class="building-card">
-                            <a href="McNair225.html" class="interactive-layout-link" title="View interactive layout for McNair 225">
-                                <h4 class="building-name no-margin-top">Room 225</h4>
-                                <p class="building-description">Server Room Inventory</p>
-                            </a>
                         </div>
                     </div>
                 </div>
